@@ -1,5 +1,8 @@
 What's New?
 
+v.1.19 - Release 2019.05.21
+Improvements in the GS1-128 code with the AIs (Application Identifiers) of fixed and variable length.
+
 v.1.17 - Release 2016.12.21
 New language: ROMANIAN by Vilhelm-Ion Praisach
 Version number matched to FoxBarcodeQR an New Year !

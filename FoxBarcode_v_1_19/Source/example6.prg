@@ -6,9 +6,8 @@ m.loFbc = CREATEOBJECT("FoxBarcode")
 
 *-- Set the properties
 WITH loFbc
-         .cImageType = "PNG"
-          .nBarcodeType = 131
-          .nImageHeight = 100
+         .cImageType = "BMP"
+          .nBarcodeType = 132 && Interleaved 2 of 5
           .nImageWidth = 200          
           .nFactor = 2
 ENDWITH
@@ -16,6 +15,9 @@ ENDWITH
 _CLIPTEXT = m.loFbc.cTempPath
 *-- Generate image
 m.lcImage = m.loFbc.BarcodeImage("1234567890")
+
+? m.lcImage
+
 
 *-- Create form
 LOCAL loForm AS FORM

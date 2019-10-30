@@ -5,23 +5,23 @@ LOCAL loFbc, lcImage
 m.loFbc = CREATEOBJECT("FoxBarcode")
 
 LOCAL lnMethod
-m.lnMethod = 1
+m.lnMethod = 0
 
 IF m.lnMethod = 1
   *----------------------
   *-- Method 1
   *----------------------
   *-- Set properties
-  m.loFbc.nBarcodeType = 181 && EAN-128
+  m.loFbc.nBarcodeType = 159 && GS1-128
   m.loFbc.nFactor = 2
-  m.loFbc.nImageWidth = 1000
+  m.loFbc.nImageWidth = 700
   m.lcImage = m.loFbc.BarcodeImage("(01)01234567890128(15)101231(10)123X")
 ELSE
   *----------------------
   *-- Method 2
   *----------------------
   *-- Generate the image with the 3rd parameter
-  m.lcImage = m.loFbc.BarcodeImage("","",[nBarcodeType=159, cText="(01)01234567890128(15)101231(10)123X", nFactor=2, nMaxImageWidth=800])
+  m.lcImage = m.loFbc.BarcodeImage("","",[nBarcodeType=159, cText="(01)01234567890128(15)101231(10)123X", nFactor=2, nMaxImageWidth=700])
 ENDIF
 
 

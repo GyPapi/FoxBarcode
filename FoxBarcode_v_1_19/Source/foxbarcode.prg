@@ -6,8 +6,8 @@
 * This software is provided "as is" without express or implied warranty.
 * Use it at your own risk
 *--------------------------------------------------------------------------------------
-* Version: 1.17
-* Date   : 2016.12.21
+* Version: 1.19
+* Date   : 2016.05.21
 * Author : VFPEncoding
 * Email  : vfpencoding@gmail.com
 *
@@ -47,51 +47,51 @@
   * SPANISH LANGUAGE
   * Translate by VFPEncoding
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Fuente o estilo no permitido por GDI+"
-  #DEFINE FBC_FBC_02		"Simbología de código de barras no implementada."
-  #DEFINE FBC_FBC_03		"El texto a codificar está en blanco."
-  #DEFINE FBC_I2O5_01		"El código Interleaved 2 of 5 solo acepta caracteres numéricos."
-  #DEFINE FBC_S2O5_01		"El código Standard 2 of 5 solo acepta caracteres numéricos."
-  #DEFINE FBC_CODABAR_01	"El código Codabar solo acepta los siguientes caracteres: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Caracteres inválidos para el Código 128 Set A."
-  #DEFINE FBC_128B_01		"Caracteres inválidos para el Código 128 Set B."
-  #DEFINE FBC_128C_01		"El Código 128 Set C solo acepta caracteres numéricos."
-  #DEFINE FBC_39EXT_01		"Caracteres inválidos para el Código 39 Full ASCII."
-  #DEFINE FBC_39_01			"Caracteres inválidos para el Código Code 39."
-  #DEFINE FBC_93EXT_01		"Caracteres inválidos para el Código 93 Full ASCII."
-  #DEFINE FBC_93_01			"Caracteres inválidos para el Código 93."
-  #DEFINE FBC_ITF14_01		"El código ITF-14 solo acepta caracteres numéricos."
-  #DEFINE FBC_ITF14_02		"ITF-14: El largo de la cadena debe ser 13 ó 14."
-  #DEFINE FBC_ITF14_03		"ITF-14: El dígito de verificación correcto es "
-  #DEFINE FBC_EAN13_01		"El código EAN-13 solo acepta caracteres numéricos."
-  #DEFINE FBC_EAN13_02		"EAN13: El largo de la cadena debe ser 12 ó 13. Con suplemento entre 14 y 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: El dígito de verificación correcto es "
-  #DEFINE FBC_EAN8_01		"El código EAN-8 solo acepta caracteres numéricos"
-  #DEFINE FBC_EAN8_02		"EAN-8: El largo de la cadena debe ser 7 ú 8. Con suplemento entre 9 y 13."
-  #DEFINE FBC_EAN8_03		"EAN-8:  El dígito de verificación correcto es "
-  #DEFINE FBC_UPCA_01		"El código UPC-A solo acepta caracteres numéricos"
-  #DEFINE FBC_UPCA_02		"UPC-A: El largo de la cadena debe ser 11 ó 12. Con suplemento entre 13 y 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: El dígito de verificación correcto es "
-  #DEFINE FBC_UPCB_01		"El código UPC-E solo acepta caracteres numéricos"
-  #DEFINE FBC_UPCB_02		"UPC-E: El largo de la cadena debe ser 6 ó 7. Con suplemento entre 8 y 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: El dígito de verificación correcto es "
-  #DEFINE FBC_MSI_01		"El código  MSI/Plessey solo acepta caracteres numéricos"
-  #DEFINE FBC_11_01			"El Código 11 solo acepta caracteres numéricos y - (guión)"
-  #DEFINE FBC_POSTNET_01	"El código PostNet solo acepta caracteres numéricos"
-  #DEFINE FBC_POSTNET_02	"PostNet: El largo de la cadena debe ser 5, 9 ú 11"
-  #DEFINE FBC_IMB_01		"El código Intelligent Mail Barcode solo acepta caracteres numéricos"
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: El largo de la cadena debe ser 5, 9 ú 11"
-  #DEFINE FBC_IMB_99		"El código Intelligent Mail Barcode muy pronto ..."
-  #DEFINE FBC_TELEPEN_01	"Caracter inválido para el código Telepen"
-  #DEFINE FBC_PHARMA1_01	"El código Pharmacode solo acepta caracteres numéricos"
-  #DEFINE FBC_PHARMA1_02	"El código Pharmacode acepta valores entre 3 y 131070"
-  #DEFINE FBC_PHARMA1_03	"El código Pharmacode solo acepta caracteres numéricos"
-  #DEFINE FBC_PHARMA2_01	"El código Two Track Pharmacode acepta valores entre 4 y 64570080"
-  #DEFINE FBC_SUPP5_01		"El código Supplemental 5 solo acepta caracteres numéricos"
-  #DEFINE FBC_SUPP2_01		"El código Supplemental 2 solo acepta caracteres numéricos"
-  #DEFINE FBC_EAN128_01		"Caracter inválido para el Código EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Caracteres inválidos para el Código RM4SCC"
-  #DEFINE FBC_KIX_01		"Caracteres inválidos para el Código KIX"
+  #DEFINE FBC_FBC_01    "Fuente o estilo no permitido por GDI+"
+  #DEFINE FBC_FBC_02    "Simbología de código de barras no implementada."
+  #DEFINE FBC_FBC_03    "El texto a codificar está en blanco."
+  #DEFINE FBC_I2O5_01    "El código Interleaved 2 of 5 solo acepta caracteres numéricos."
+  #DEFINE FBC_S2O5_01    "El código Standard 2 of 5 solo acepta caracteres numéricos."
+  #DEFINE FBC_CODABAR_01  "El código Codabar solo acepta los siguientes caracteres: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Caracteres inválidos para el Código 128 Set A."
+  #DEFINE FBC_128B_01    "Caracteres inválidos para el Código 128 Set B."
+  #DEFINE FBC_128C_01    "El Código 128 Set C solo acepta caracteres numéricos."
+  #DEFINE FBC_39EXT_01    "Caracteres inválidos para el Código 39 Full ASCII."
+  #DEFINE FBC_39_01      "Caracteres inválidos para el Código Code 39."
+  #DEFINE FBC_93EXT_01    "Caracteres inválidos para el Código 93 Full ASCII."
+  #DEFINE FBC_93_01      "Caracteres inválidos para el Código 93."
+  #DEFINE FBC_ITF14_01    "El código ITF-14 solo acepta caracteres numéricos."
+  #DEFINE FBC_ITF14_02    "ITF-14: El largo de la cadena debe ser 13 ó 14."
+  #DEFINE FBC_ITF14_03    "ITF-14: El dígito de verificación correcto es "
+  #DEFINE FBC_EAN13_01    "El código EAN-13 solo acepta caracteres numéricos."
+  #DEFINE FBC_EAN13_02    "EAN13: El largo de la cadena debe ser 12 ó 13. Con suplemento entre 14 y 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: El dígito de verificación correcto es "
+  #DEFINE FBC_EAN8_01    "El código EAN-8 solo acepta caracteres numéricos"
+  #DEFINE FBC_EAN8_02    "EAN-8: El largo de la cadena debe ser 7 ú 8. Con suplemento entre 9 y 13."
+  #DEFINE FBC_EAN8_03    "EAN-8:  El dígito de verificación correcto es "
+  #DEFINE FBC_UPCA_01    "El código UPC-A solo acepta caracteres numéricos"
+  #DEFINE FBC_UPCA_02    "UPC-A: El largo de la cadena debe ser 11 ó 12. Con suplemento entre 13 y 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: El dígito de verificación correcto es "
+  #DEFINE FBC_UPCB_01    "El código UPC-E solo acepta caracteres numéricos"
+  #DEFINE FBC_UPCB_02    "UPC-E: El largo de la cadena debe ser 6 ó 7. Con suplemento entre 8 y 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: El dígito de verificación correcto es "
+  #DEFINE FBC_MSI_01    "El código  MSI/Plessey solo acepta caracteres numéricos"
+  #DEFINE FBC_11_01      "El Código 11 solo acepta caracteres numéricos y - (guión)"
+  #DEFINE FBC_POSTNET_01  "El código PostNet solo acepta caracteres numéricos"
+  #DEFINE FBC_POSTNET_02  "PostNet: El largo de la cadena debe ser 5, 9 ú 11"
+  #DEFINE FBC_IMB_01    "El código Intelligent Mail Barcode solo acepta caracteres numéricos"
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: El largo de la cadena debe ser 5, 9 ú 11"
+  #DEFINE FBC_IMB_99    "El código Intelligent Mail Barcode muy pronto ..."
+  #DEFINE FBC_TELEPEN_01  "Caracter inválido para el código Telepen"
+  #DEFINE FBC_PHARMA1_01  "El código Pharmacode solo acepta caracteres numéricos"
+  #DEFINE FBC_PHARMA1_02  "El código Pharmacode acepta valores entre 3 y 131070"
+  #DEFINE FBC_PHARMA1_03  "El código Pharmacode solo acepta caracteres numéricos"
+  #DEFINE FBC_PHARMA2_01  "El código Two Track Pharmacode acepta valores entre 4 y 64570080"
+  #DEFINE FBC_SUPP5_01    "El código Supplemental 5 solo acepta caracteres numéricos"
+  #DEFINE FBC_SUPP2_01    "El código Supplemental 2 solo acepta caracteres numéricos"
+  #DEFINE FBC_EAN128_01    "Caracter inválido para el Código EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Caracteres inválidos para el Código RM4SCC"
+  #DEFINE FBC_KIX_01    "Caracteres inválidos para el Código KIX"
 
 
 #ELIF FBC_LANGUAGE = "CZECH"
@@ -99,102 +99,102 @@
   * CZECH LANGUAGE
   * Translate by Martin Krivka
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Font nebo styl není dostupný v GDI+"
-  #DEFINE FBC_FBC_02		"Symboly èárového kódu nejsou implementovány."
-  #DEFINE FBC_FBC_03		"Text je prázdný."
-  #DEFINE FBC_I2O5_01		"Interleaved 2 of 5 code podporuje pouze numerické znaky."
-  #DEFINE FBC_S2O5_01		"Standard 2 of 5 code podporuje pouze numerické znaky."
-  #DEFINE FBC_CODABAR_01	"Codabar podporuje pouze znaky: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Neplatné znaky pro Code 128 Set A."
-  #DEFINE FBC_128B_01		"Neplatné znaky pro Code 128 Set B."
-  #DEFINE FBC_128C_01		"Code 128 Set C podporuje pouze numerické znaky."
-  #DEFINE FBC_39EXT_01		"Neplatné znaky pro Code 39 Full ASCII."
-  #DEFINE FBC_39_01			"Neplatné znaky pro Code 39."
-  #DEFINE FBC_93EXT_01		"Neplatné znaky pro Code 93 Full ASCII."
-  #DEFINE FBC_93_01			"Neplatné znaky pro Code 93."
-  #DEFINE FBC_ITF14_01		"ITF-14: podporuje pouze numerické znaky."
-  #DEFINE FBC_ITF14_02		"ITF-14: délka øetìzce musí být 13 nebo 14 znakù."
-  #DEFINE FBC_ITF14_03		"ITF-14: správné kontrolní èíslo je "
-  #DEFINE FBC_EAN13_01		"EAN-13 podporuje pouze numerické znaky."
-  #DEFINE FBC_EAN13_02		"Délka øetìzce musí být 12 nebo 13 znakù. S pøíplatkem mezi 14 až 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: správné kontrolní èíslo je "
-  #DEFINE FBC_EAN8_01		"The EAN-8 podporuje pouze numerické znaky."
-  #DEFINE FBC_EAN8_02		"EAN-8: délka øetìzce musí být 7 nebo 8 znakù. S pøíplatkem mezi 9 až 13."
-  #DEFINE FBC_EAN8_03		"EAN-8: správné kontrolní èíslo je "
-  #DEFINE FBC_UPCA_01		"UPC-A: podporuje pouze numerické znaky."
-  #DEFINE FBC_UPCA_02		"UPC-A: délka øetìzce musí být 11 nebo 12 znakù. S pøíplatkem mezi 13 až 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: správné kontrolní èíslo je "
-  #DEFINE FBC_UPCB_01		"UPC-E: podporuje pouze numerické znaky."
-  #DEFINE FBC_UPCB_02		"UPC-E: délka øetìzce musí být 6 nebo 7 znakù. S pøíplatkem mezi 8 až 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: správné kontrolní èíslo je "
-  #DEFINE FBC_MSI_01		"MSI/Plessey podporuje pouze numerické znaky."
-  #DEFINE FBC_11_01			"Code 11 podporuje pouze numerické znaky a - (minus)."
-  #DEFINE FBC_POSTNET_01	"PostNet podporuje pouze numerické znaky."
-  #DEFINE FBC_POSTNET_02	"PostNet: délka øetìzce musí být 5,9,11"
-  #DEFINE FBC_IMB_01		"Intelligent Mail Barcode podporuje pouze numerické znaky."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: délka øetìzce musí být 5, 9, 11."
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode brzdy ..."
-  #DEFINE FBC_TELEPEN_01	"Neplatný znak pro Telepen code."
-  #DEFINE FBC_PHARMA1_01	"Pharmacode podporuje pouze numerické znaky."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: vstupní hodnoty mezi 3 a 131070."
-  #DEFINE FBC_PHARMA1_03	"Pharmacode podporuje pouze numerické znaky."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: vstupní hodnoty mezi 4 až 64570080."
-  #DEFINE FBC_SUPP5_01		"Supplemental 5 code podporuje pouze numerické znaky."
-  #DEFINE FBC_SUPP2_01		"Supplemental 2 code podporuje pouze numerické znaky."
-  #DEFINE FBC_EAN128_01		"Neplatné znaky pro EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Neplatné znaky pro Code RM4SCC."
-  #DEFINE FBC_KIX_01		"Neplatné znaky pro KIX-Code."
+  #DEFINE FBC_FBC_01    "Font nebo styl není dostupný v GDI+"
+  #DEFINE FBC_FBC_02    "Symboly èárového kódu nejsou implementovány."
+  #DEFINE FBC_FBC_03    "Text je prázdný."
+  #DEFINE FBC_I2O5_01    "Interleaved 2 of 5 code podporuje pouze numerické znaky."
+  #DEFINE FBC_S2O5_01    "Standard 2 of 5 code podporuje pouze numerické znaky."
+  #DEFINE FBC_CODABAR_01  "Codabar podporuje pouze znaky: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Neplatné znaky pro Code 128 Set A."
+  #DEFINE FBC_128B_01    "Neplatné znaky pro Code 128 Set B."
+  #DEFINE FBC_128C_01    "Code 128 Set C podporuje pouze numerické znaky."
+  #DEFINE FBC_39EXT_01    "Neplatné znaky pro Code 39 Full ASCII."
+  #DEFINE FBC_39_01      "Neplatné znaky pro Code 39."
+  #DEFINE FBC_93EXT_01    "Neplatné znaky pro Code 93 Full ASCII."
+  #DEFINE FBC_93_01      "Neplatné znaky pro Code 93."
+  #DEFINE FBC_ITF14_01    "ITF-14: podporuje pouze numerické znaky."
+  #DEFINE FBC_ITF14_02    "ITF-14: délka øetìzce musí být 13 nebo 14 znakù."
+  #DEFINE FBC_ITF14_03    "ITF-14: správné kontrolní èíslo je "
+  #DEFINE FBC_EAN13_01    "EAN-13 podporuje pouze numerické znaky."
+  #DEFINE FBC_EAN13_02    "Délka øetìzce musí být 12 nebo 13 znakù. S pøíplatkem mezi 14 až 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: správné kontrolní èíslo je "
+  #DEFINE FBC_EAN8_01    "The EAN-8 podporuje pouze numerické znaky."
+  #DEFINE FBC_EAN8_02    "EAN-8: délka øetìzce musí být 7 nebo 8 znakù. S pøíplatkem mezi 9 až 13."
+  #DEFINE FBC_EAN8_03    "EAN-8: správné kontrolní èíslo je "
+  #DEFINE FBC_UPCA_01    "UPC-A: podporuje pouze numerické znaky."
+  #DEFINE FBC_UPCA_02    "UPC-A: délka øetìzce musí být 11 nebo 12 znakù. S pøíplatkem mezi 13 až 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: správné kontrolní èíslo je "
+  #DEFINE FBC_UPCB_01    "UPC-E: podporuje pouze numerické znaky."
+  #DEFINE FBC_UPCB_02    "UPC-E: délka øetìzce musí být 6 nebo 7 znakù. S pøíplatkem mezi 8 až 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: správné kontrolní èíslo je "
+  #DEFINE FBC_MSI_01    "MSI/Plessey podporuje pouze numerické znaky."
+  #DEFINE FBC_11_01      "Code 11 podporuje pouze numerické znaky a - (minus)."
+  #DEFINE FBC_POSTNET_01  "PostNet podporuje pouze numerické znaky."
+  #DEFINE FBC_POSTNET_02  "PostNet: délka øetìzce musí být 5,9,11"
+  #DEFINE FBC_IMB_01    "Intelligent Mail Barcode podporuje pouze numerické znaky."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: délka øetìzce musí být 5, 9, 11."
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode brzdy ..."
+  #DEFINE FBC_TELEPEN_01  "Neplatný znak pro Telepen code."
+  #DEFINE FBC_PHARMA1_01  "Pharmacode podporuje pouze numerické znaky."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: vstupní hodnoty mezi 3 a 131070."
+  #DEFINE FBC_PHARMA1_03  "Pharmacode podporuje pouze numerické znaky."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: vstupní hodnoty mezi 4 až 64570080."
+  #DEFINE FBC_SUPP5_01    "Supplemental 5 code podporuje pouze numerické znaky."
+  #DEFINE FBC_SUPP2_01    "Supplemental 2 code podporuje pouze numerické znaky."
+  #DEFINE FBC_EAN128_01    "Neplatné znaky pro EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Neplatné znaky pro Code RM4SCC."
+  #DEFINE FBC_KIX_01    "Neplatné znaky pro KIX-Code."
 
 #ELIF FBC_LANGUAGE = "DUTCH"
   *--------------------------------
   * DUTCH LANGUAGE
   * Translate by Koen Piller
   *--------------------------------
-  #DEFINE FBC_11_01		    "Code 11 is slechts voor cijfers en liggend streepje"
-  #DEFINE FBC_128A_01		"Niet toegestane tekens voor Code 128 Set A"
-  #DEFINE FBC_128B_01		"Niet toegestane tekens voor Cose 128 Set B"
-  #DEFINE FBC_128C_01		"Code 128 is slechts voor cijfers"
-  #DEFINE FBC_39_01		   	"Niet toegestane tekens voor Code 39"
-  #DEFINE FBC_39EXT_01		"Niet toegestane tekens voor Code 39 Full ASCII"
-  #DEFINE FBC_93_01			"Niet toegestane tekens voor Code 93"
-  #DEFINE FBC_93EXT_01		"Niet toegestane tekens voor Code 39 Full ASCII"
-  #DEFINE FBC_CODABAR_01	"Voor Codabar zijn slechts de volgende tekens toegestaan:  0123456789-$:/.+"
-  #DEFINE FBC_EAN128_01		"Niet toegestane tekens voor EAN/UCC?GS 128"
-  #DEFINE FBC_EAN13_01		"De EAN-13 code is slechts voor cijfers."
-  #DEFINE FBC_EAN13_02		"De lengte van de reeks moet 12 of 13 zijn. Met een toevoeging van 14 en 18"
-  #DEFINE FBC_EAN13_03		"EAN-13: Het juiste teken is "
-  #DEFINE FBC_EAN8_01		"The EAN-8 code is slechts voor cijfers"
-  #DEFINE FBC_EAN8_02		"EAN-8: De lengte van de tekenreeks moet 7 of 8 zijn. Met een toevoeging tussen 9 en 13"
-  #DEFINE FBC_EAN8_03		"EAN-8: Het juiste teken is "
-  #DEFINE FBC_FBC_01		"Lettertype of -opmaak is niet toegestaan in GDI+"
-  #DEFINE FBC_FBC_02		"Barcode symbolen werden niet geimplementeerd"
-  #DEFINE FBC_FBC_03		"De te coderen tekst is niet gegeven."
-  #DEFINE FBC_I2O5_01		"Interleaved 2 van 5 (ook wel Ik heb 2 van 5)  is slechts voor cijfers"
-  #DEFINE FBC_IMB_01		"De Intelligent Mail Barcode  is slechts voor cijfers."
-  #DEFINE FBC_IMB_02		"De Intelligent Mail Barcode: De lengte van de tekenreeks moet 5, 9 of 11 zijn."
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode  binnenkort....."
-  #DEFINE FBC_ITF14_01		"The ITF-14 code is slechts voor cijfers"
-  #DEFINE FBC_ITF14_02		"ITF-14: De lengte van de tekenreeks moet 13 of 14 zijn"
-  #DEFINE FBC_ITF14_03		"ITF-14: Het controle getal moet zijn"
-  #DEFINE FBC_MSI_01		"The MSI/Plessey code is slechts voor cijfers"
-  #DEFINE FBC_PHARMA1_01	"The Pharmacode is slechts voor cijfers"
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: waarde moet in de reeks 13 t/m 131070 zijn"
-  #DEFINE FBC_PHARMA1_03	"The Pharmacode is slechts voor cijfers"
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Waarde moet liggen tussen 4 en 64570080."
-  #DEFINE FBC_POSTNET_01	"The PostNet is slechts voor cijfers"
-  #DEFINE FBC_POSTNET_02	"PostNet: De lengte van de tekenreeks moet 5, 9 of 11 zijn"
-  #DEFINE FBC_S2O5_01		"The Standard 2 of 5 code is slechts voor cijfers"
-  #DEFINE FBC_SUPP2_01		"The Supplemental 2 code is slechts voor cijfers"
-  #DEFINE FBC_SUPP5_01		"The Supplemental 5 is slechts voor cijfers"
-  #DEFINE FBC_TELEPEN_01	"Ongeldig teken voor Telepen code."
-  #DEFINE FBC_UPCA_01		"The UPC-A code is slechts voor cijfers."
-  #DEFINE FBC_UPCA_02		"UPC-A: De tekenreeks is 11 of 12 lang. Het toevoegsel tussen 13 en 17 lang."
-  #DEFINE FBC_UPCA_03		"UPC-A: Het juiste controle getal is "
-  #DEFINE FBC_UPCB_01		"The UPC-E code is slechts voor cijfers"
-  #DEFINE FBC_UPCB_02		"UPC-E: De tekenreeks moet 6 of 7 lang zijn. Het toevoegsel tussen 8 en 12 lang."
-  #DEFINE FBC_UPCB_03		"UPC-E:Het juiste controle getal is "
-  #DEFINE FBC_RM4SCC_01		"Niet toegestane tekens voor Code RM4SCC"
-  #DEFINE FBC_KIX_01		"Niet toegestane tekens voor KIX-Code"
+  #DEFINE FBC_11_01        "Code 11 is slechts voor cijfers en liggend streepje"
+  #DEFINE FBC_128A_01    "Niet toegestane tekens voor Code 128 Set A"
+  #DEFINE FBC_128B_01    "Niet toegestane tekens voor Cose 128 Set B"
+  #DEFINE FBC_128C_01    "Code 128 is slechts voor cijfers"
+  #DEFINE FBC_39_01         "Niet toegestane tekens voor Code 39"
+  #DEFINE FBC_39EXT_01    "Niet toegestane tekens voor Code 39 Full ASCII"
+  #DEFINE FBC_93_01      "Niet toegestane tekens voor Code 93"
+  #DEFINE FBC_93EXT_01    "Niet toegestane tekens voor Code 39 Full ASCII"
+  #DEFINE FBC_CODABAR_01  "Voor Codabar zijn slechts de volgende tekens toegestaan:  0123456789-$:/.+"
+  #DEFINE FBC_EAN128_01    "Niet toegestane tekens voor EAN/UCC?GS 128"
+  #DEFINE FBC_EAN13_01    "De EAN-13 code is slechts voor cijfers."
+  #DEFINE FBC_EAN13_02    "De lengte van de reeks moet 12 of 13 zijn. Met een toevoeging van 14 en 18"
+  #DEFINE FBC_EAN13_03    "EAN-13: Het juiste teken is "
+  #DEFINE FBC_EAN8_01    "The EAN-8 code is slechts voor cijfers"
+  #DEFINE FBC_EAN8_02    "EAN-8: De lengte van de tekenreeks moet 7 of 8 zijn. Met een toevoeging tussen 9 en 13"
+  #DEFINE FBC_EAN8_03    "EAN-8: Het juiste teken is "
+  #DEFINE FBC_FBC_01    "Lettertype of -opmaak is niet toegestaan in GDI+"
+  #DEFINE FBC_FBC_02    "Barcode symbolen werden niet geimplementeerd"
+  #DEFINE FBC_FBC_03    "De te coderen tekst is niet gegeven."
+  #DEFINE FBC_I2O5_01    "Interleaved 2 van 5 (ook wel Ik heb 2 van 5)  is slechts voor cijfers"
+  #DEFINE FBC_IMB_01    "De Intelligent Mail Barcode  is slechts voor cijfers."
+  #DEFINE FBC_IMB_02    "De Intelligent Mail Barcode: De lengte van de tekenreeks moet 5, 9 of 11 zijn."
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode  binnenkort....."
+  #DEFINE FBC_ITF14_01    "The ITF-14 code is slechts voor cijfers"
+  #DEFINE FBC_ITF14_02    "ITF-14: De lengte van de tekenreeks moet 13 of 14 zijn"
+  #DEFINE FBC_ITF14_03    "ITF-14: Het controle getal moet zijn"
+  #DEFINE FBC_MSI_01    "The MSI/Plessey code is slechts voor cijfers"
+  #DEFINE FBC_PHARMA1_01  "The Pharmacode is slechts voor cijfers"
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: waarde moet in de reeks 13 t/m 131070 zijn"
+  #DEFINE FBC_PHARMA1_03  "The Pharmacode is slechts voor cijfers"
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Waarde moet liggen tussen 4 en 64570080."
+  #DEFINE FBC_POSTNET_01  "The PostNet is slechts voor cijfers"
+  #DEFINE FBC_POSTNET_02  "PostNet: De lengte van de tekenreeks moet 5, 9 of 11 zijn"
+  #DEFINE FBC_S2O5_01    "The Standard 2 of 5 code is slechts voor cijfers"
+  #DEFINE FBC_SUPP2_01    "The Supplemental 2 code is slechts voor cijfers"
+  #DEFINE FBC_SUPP5_01    "The Supplemental 5 is slechts voor cijfers"
+  #DEFINE FBC_TELEPEN_01  "Ongeldig teken voor Telepen code."
+  #DEFINE FBC_UPCA_01    "The UPC-A code is slechts voor cijfers."
+  #DEFINE FBC_UPCA_02    "UPC-A: De tekenreeks is 11 of 12 lang. Het toevoegsel tussen 13 en 17 lang."
+  #DEFINE FBC_UPCA_03    "UPC-A: Het juiste controle getal is "
+  #DEFINE FBC_UPCB_01    "The UPC-E code is slechts voor cijfers"
+  #DEFINE FBC_UPCB_02    "UPC-E: De tekenreeks moet 6 of 7 lang zijn. Het toevoegsel tussen 8 en 12 lang."
+  #DEFINE FBC_UPCB_03    "UPC-E:Het juiste controle getal is "
+  #DEFINE FBC_RM4SCC_01    "Niet toegestane tekens voor Code RM4SCC"
+  #DEFINE FBC_KIX_01    "Niet toegestane tekens voor KIX-Code"
 
 
 #ELIF FBC_LANGUAGE = "PORTUGUESE"
@@ -202,357 +202,357 @@
   * PORTUGUESE LANGUAGE
   * Translate by Cesar Chalom
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Fonte ou estilo não permitido pela biblioteca GDI+"
-  #DEFINE FBC_FBC_02		"Simbología de código de barras não implementada."
-  #DEFINE FBC_FBC_03		"O texto a codificar está vazio."
-  #DEFINE FBC_I2O5_01		"O código Interleaved 2 of 5 somente aceita caracteres numéricos."
-  #DEFINE FBC_S2O5_01		"O código Standard 2 of 5 somente aceita caracteres numéricos."
-  #DEFINE FBC_CODABAR_01	"O código Codabar somente aceita os seguintes caracteres: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Caracteres inválidos para o Código 128 Set A."
-  #DEFINE FBC_128B_01		"Caracteres inválidos para o Código 128 Set B."
-  #DEFINE FBC_128C_01		"O Código 128 Set C somente aceita caracteres numéricos."
-  #DEFINE FBC_39EXT_01		"Caracteres inválidos para o Código 39 Full ASCII."
-  #DEFINE FBC_39_01			"Caracteres inválidos para o Código Code 39."
-  #DEFINE FBC_93EXT_01		"Caracteres inválidos para o Código 93 Full ASCII."
-  #DEFINE FBC_93_01			"Caracteres inválidos para o Código 93."
-  #DEFINE FBC_ITF14_01		"O código ITF-14 somente aceita caracteres numéricos."
-  #DEFINE FBC_ITF14_02		"ITF-14: O tamanho da cadeia deve ser 13 ou 14."
-  #DEFINE FBC_ITF14_03		"ITF-14: O dígito de verificação correto é "
-  #DEFINE FBC_EAN13_01		"O código EAN-13 somente aceita caracteres numéricos."
-  #DEFINE FBC_EAN13_02		"EAN13: O tamanho da cadeia deve ser 12 ou 13. Com suplemento entre 14 e 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: O dígito de verificação correto é "
-  #DEFINE FBC_EAN8_01		"O código EAN-8 somente aceita caracteres numéricos"
-  #DEFINE FBC_EAN8_02		"EAN-8: O tamanho da cadeia deve ser 7 ou 8. Com suplemento entre 9 e 13."
-  #DEFINE FBC_EAN8_03		"EAN-8:  O dígito de verificação correto é "
-  #DEFINE FBC_UPCA_01		"O código UPC-A somente aceita caracteres numéricos"
-  #DEFINE FBC_UPCA_02		"UPC-A: O tamanho da cadeia deve ser 11 ou 12. Com suplemento entre 13 e 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: O dígito de verificação correto é "
-  #DEFINE FBC_UPCB_01		"O código UPC-E somente aceita caracteres numéricos"
-  #DEFINE FBC_UPCB_02		"UPC-E: O tamanho da cadeia deve ser 6 ou 7. Com suplemento entre 8 e 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: O dígito de verificação correto é "
-  #DEFINE FBC_MSI_01		"O código  MSI/Plessey somente aceita caracteres numéricos"
-  #DEFINE FBC_11_01			"O Código 11 somente aceita caracteres numéricos e - (guión)"
-  #DEFINE FBC_POSTNET_01	"O código PostNet somente aceita caracteres numéricos"
-  #DEFINE FBC_POSTNET_02	"PostNet: O tamanho da cadeia deve ser 5, 9 ou 11"
-  #DEFINE FBC_IMB_01		"O código Intelligent Mail Barcode somente aceita caracteres numéricos"
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: O tamanho da cadeia deve ser 5, 9 ou 11"
-  #DEFINE FBC_IMB_99		"O código Intelligent Mail Barcode muy pronto ..."
-  #DEFINE FBC_TELEPEN_01	"Caracter inválido para o código Telepen"
-  #DEFINE FBC_PHARMA1_01	"O código Pharmacode somente aceita caracteres numéricos"
-  #DEFINE FBC_PHARMA1_02	"O código Pharmacode aceita valores entre 3 e 131070"
-  #DEFINE FBC_PHARMA1_03	"O código Pharmacode somente aceita caracteres numéricos"
-  #DEFINE FBC_PHARMA2_01	"O código Two Track Pharmacode aceita valores entre 4 e 64570080"
-  #DEFINE FBC_SUPP5_01		"O código Supplemental 5 somente aceita caracteres numéricos"
-  #DEFINE FBC_SUPP2_01		"O código Supplemental 2 somente aceita caracteres numéricos"
-  #DEFINE FBC_EAN128_01		"Caracter inválido para o Código EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Caracteres inválidos para o Código RM4SCC."
-  #DEFINE FBC_KIX_01		"Caracteres inválidos para o KIX-Code."
+  #DEFINE FBC_FBC_01    "Fonte ou estilo não permitido pela biblioteca GDI+"
+  #DEFINE FBC_FBC_02    "Simbología de código de barras não implementada."
+  #DEFINE FBC_FBC_03    "O texto a codificar está vazio."
+  #DEFINE FBC_I2O5_01    "O código Interleaved 2 of 5 somente aceita caracteres numéricos."
+  #DEFINE FBC_S2O5_01    "O código Standard 2 of 5 somente aceita caracteres numéricos."
+  #DEFINE FBC_CODABAR_01  "O código Codabar somente aceita os seguintes caracteres: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Caracteres inválidos para o Código 128 Set A."
+  #DEFINE FBC_128B_01    "Caracteres inválidos para o Código 128 Set B."
+  #DEFINE FBC_128C_01    "O Código 128 Set C somente aceita caracteres numéricos."
+  #DEFINE FBC_39EXT_01    "Caracteres inválidos para o Código 39 Full ASCII."
+  #DEFINE FBC_39_01      "Caracteres inválidos para o Código Code 39."
+  #DEFINE FBC_93EXT_01    "Caracteres inválidos para o Código 93 Full ASCII."
+  #DEFINE FBC_93_01      "Caracteres inválidos para o Código 93."
+  #DEFINE FBC_ITF14_01    "O código ITF-14 somente aceita caracteres numéricos."
+  #DEFINE FBC_ITF14_02    "ITF-14: O tamanho da cadeia deve ser 13 ou 14."
+  #DEFINE FBC_ITF14_03    "ITF-14: O dígito de verificação correto é "
+  #DEFINE FBC_EAN13_01    "O código EAN-13 somente aceita caracteres numéricos."
+  #DEFINE FBC_EAN13_02    "EAN13: O tamanho da cadeia deve ser 12 ou 13. Com suplemento entre 14 e 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: O dígito de verificação correto é "
+  #DEFINE FBC_EAN8_01    "O código EAN-8 somente aceita caracteres numéricos"
+  #DEFINE FBC_EAN8_02    "EAN-8: O tamanho da cadeia deve ser 7 ou 8. Com suplemento entre 9 e 13."
+  #DEFINE FBC_EAN8_03    "EAN-8:  O dígito de verificação correto é "
+  #DEFINE FBC_UPCA_01    "O código UPC-A somente aceita caracteres numéricos"
+  #DEFINE FBC_UPCA_02    "UPC-A: O tamanho da cadeia deve ser 11 ou 12. Com suplemento entre 13 e 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: O dígito de verificação correto é "
+  #DEFINE FBC_UPCB_01    "O código UPC-E somente aceita caracteres numéricos"
+  #DEFINE FBC_UPCB_02    "UPC-E: O tamanho da cadeia deve ser 6 ou 7. Com suplemento entre 8 e 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: O dígito de verificação correto é "
+  #DEFINE FBC_MSI_01    "O código  MSI/Plessey somente aceita caracteres numéricos"
+  #DEFINE FBC_11_01      "O Código 11 somente aceita caracteres numéricos e - (guión)"
+  #DEFINE FBC_POSTNET_01  "O código PostNet somente aceita caracteres numéricos"
+  #DEFINE FBC_POSTNET_02  "PostNet: O tamanho da cadeia deve ser 5, 9 ou 11"
+  #DEFINE FBC_IMB_01    "O código Intelligent Mail Barcode somente aceita caracteres numéricos"
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: O tamanho da cadeia deve ser 5, 9 ou 11"
+  #DEFINE FBC_IMB_99    "O código Intelligent Mail Barcode muy pronto ..."
+  #DEFINE FBC_TELEPEN_01  "Caracter inválido para o código Telepen"
+  #DEFINE FBC_PHARMA1_01  "O código Pharmacode somente aceita caracteres numéricos"
+  #DEFINE FBC_PHARMA1_02  "O código Pharmacode aceita valores entre 3 e 131070"
+  #DEFINE FBC_PHARMA1_03  "O código Pharmacode somente aceita caracteres numéricos"
+  #DEFINE FBC_PHARMA2_01  "O código Two Track Pharmacode aceita valores entre 4 e 64570080"
+  #DEFINE FBC_SUPP5_01    "O código Supplemental 5 somente aceita caracteres numéricos"
+  #DEFINE FBC_SUPP2_01    "O código Supplemental 2 somente aceita caracteres numéricos"
+  #DEFINE FBC_EAN128_01    "Caracter inválido para o Código EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Caracteres inválidos para o Código RM4SCC."
+  #DEFINE FBC_KIX_01    "Caracteres inválidos para o KIX-Code."
 
 #ELIF FBC_LANGUAGE = "TURKISH"
   *--------------------------------
   * TURKISH LANGUAGE
   * Translate by Ugur Yilmaz
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Font yada font stili GD+ da desteklenmiyor."
-  #DEFINE FBC_FBC_02		"Barkod alfabesine uygulanamadý."
-  #DEFINE FBC_FBC_03		"Metin kodlamasý boþ."
-  #DEFINE FBC_I2O5_01		"Interleaved 2 of 5 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_S2O5_01		"Standard 2 of 5 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_CODABAR_01	"Codabar kodu sadece izleyen deðerleri kabul eder:  0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Code 128 Set A için geçersiz karakter."
-  #DEFINE FBC_128B_01		"Code 128 Set B  için geçersiz karakter."
-  #DEFINE FBC_128C_01		"Code 128 Set C sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_39EXT_01		"Code 39 Full ASCII için geçersiz karakter."
-  #DEFINE FBC_39_01			"Code 39 için geçersiz karakter."
-  #DEFINE FBC_93EXT_01		"Code 93 Full ASCII için geçersiz karakter."
-  #DEFINE FBC_93_01			"Code 93 için geçersiz karakter."
-  #DEFINE FBC_ITF14_01		"ITF-14 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_ITF14_02		"ITF-14: Dizi uzunluðu 13 yada 14 olmalý."
-  #DEFINE FBC_ITF14_03		"ITF-14: Doðru kontrol hanesi."
-  #DEFINE FBC_EAN13_01		"The EAN-13 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_EAN13_02		"Dizi uzunluðu 12 yada 13 karakter olmalý. 14 ile 18 arasýna tamamlanýr."
-  #DEFINE FBC_EAN13_03		"EAN-13: Doðru kontrol hanesi "
-  #DEFINE FBC_EAN8_01		"The EAN-8 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_EAN8_02		"EAN-8: Dizi uzunluðu 7 yada 8 olmalý. 9 ile 13 arasýna tamamlanýr."
-  #DEFINE FBC_EAN8_03		"EAN-8: Doðru kontrol hanesi "
-  #DEFINE FBC_UPCA_01		"The UPC-A kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_UPCA_02		"UPC-A: Dizi uzunluðu 11 yada 12 olmalý. 13 ile 17 arasýna tamamlanýr."
-  #DEFINE FBC_UPCA_03		"UPC-A: Doðru kontrol hanesi "
-  #DEFINE FBC_UPCB_01		"The UPC-E kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_UPCB_02		"UPC-E: Dizi uzunluðu 6 yada 7 olmalý. 8 ile 12 arasýna tamamlanýr."
-  #DEFINE FBC_UPCB_03		"UPC-E: Doðru kontrol hanesi "
-  #DEFINE FBC_MSI_01		"The MSI/Plessey kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_11_01			"Code 11 sadece sayýsal deðerleri ve - (Tire) kabul eder."
-  #DEFINE FBC_POSTNET_01	"PostNet kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_POSTNET_02	"PostNet: Dizi uzunluðu 5,9 yada 11 karakter olmalý"
-  #DEFINE FBC_IMB_01		"Intelligent Mail Barcode kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode:  Dizi uzunluðu 5, 9 yada 11 karakter olmalý"
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode (Yakýnda) ..."
-  #DEFINE FBC_TELEPEN_01	"Telepen kodu için geçersiz karakter."
-  #DEFINE FBC_PHARMA1_01	"Pharmacode sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: 3 ile 131070 arasýnda bir deðer girin."
-  #DEFINE FBC_PHARMA1_03	"Pharmacode sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: 4 ile 64570080 arasýnda bir deðer girin."
-  #DEFINE FBC_SUPP5_01		"Supplemental 5 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_SUPP2_01		"The Supplemental 2 kodu sadece sayýsal deðerleri kabul eder."
-  #DEFINE FBC_EAN128_01		"EAN/UCC/GS1 128 için geçersiz karakter."
-  #DEFINE FBC_RM4SCC_01		"Code RM4SCC için geçersiz karakter."
-  #DEFINE FBC_KIX_01		"KIX-Code için geçersiz karakter."
+  #DEFINE FBC_FBC_01    "Font yada font stili GD+ da desteklenmiyor."
+  #DEFINE FBC_FBC_02    "Barkod alfabesine uygulanamadý."
+  #DEFINE FBC_FBC_03    "Metin kodlamasý boþ."
+  #DEFINE FBC_I2O5_01    "Interleaved 2 of 5 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_S2O5_01    "Standard 2 of 5 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_CODABAR_01  "Codabar kodu sadece izleyen deðerleri kabul eder:  0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Code 128 Set A için geçersiz karakter."
+  #DEFINE FBC_128B_01    "Code 128 Set B  için geçersiz karakter."
+  #DEFINE FBC_128C_01    "Code 128 Set C sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_39EXT_01    "Code 39 Full ASCII için geçersiz karakter."
+  #DEFINE FBC_39_01      "Code 39 için geçersiz karakter."
+  #DEFINE FBC_93EXT_01    "Code 93 Full ASCII için geçersiz karakter."
+  #DEFINE FBC_93_01      "Code 93 için geçersiz karakter."
+  #DEFINE FBC_ITF14_01    "ITF-14 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_ITF14_02    "ITF-14: Dizi uzunluðu 13 yada 14 olmalý."
+  #DEFINE FBC_ITF14_03    "ITF-14: Doðru kontrol hanesi."
+  #DEFINE FBC_EAN13_01    "The EAN-13 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_EAN13_02    "Dizi uzunluðu 12 yada 13 karakter olmalý. 14 ile 18 arasýna tamamlanýr."
+  #DEFINE FBC_EAN13_03    "EAN-13: Doðru kontrol hanesi "
+  #DEFINE FBC_EAN8_01    "The EAN-8 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_EAN8_02    "EAN-8: Dizi uzunluðu 7 yada 8 olmalý. 9 ile 13 arasýna tamamlanýr."
+  #DEFINE FBC_EAN8_03    "EAN-8: Doðru kontrol hanesi "
+  #DEFINE FBC_UPCA_01    "The UPC-A kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_UPCA_02    "UPC-A: Dizi uzunluðu 11 yada 12 olmalý. 13 ile 17 arasýna tamamlanýr."
+  #DEFINE FBC_UPCA_03    "UPC-A: Doðru kontrol hanesi "
+  #DEFINE FBC_UPCB_01    "The UPC-E kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_UPCB_02    "UPC-E: Dizi uzunluðu 6 yada 7 olmalý. 8 ile 12 arasýna tamamlanýr."
+  #DEFINE FBC_UPCB_03    "UPC-E: Doðru kontrol hanesi "
+  #DEFINE FBC_MSI_01    "The MSI/Plessey kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_11_01      "Code 11 sadece sayýsal deðerleri ve - (Tire) kabul eder."
+  #DEFINE FBC_POSTNET_01  "PostNet kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_POSTNET_02  "PostNet: Dizi uzunluðu 5,9 yada 11 karakter olmalý"
+  #DEFINE FBC_IMB_01    "Intelligent Mail Barcode kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode:  Dizi uzunluðu 5, 9 yada 11 karakter olmalý"
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode (Yakýnda) ..."
+  #DEFINE FBC_TELEPEN_01  "Telepen kodu için geçersiz karakter."
+  #DEFINE FBC_PHARMA1_01  "Pharmacode sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: 3 ile 131070 arasýnda bir deðer girin."
+  #DEFINE FBC_PHARMA1_03  "Pharmacode sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: 4 ile 64570080 arasýnda bir deðer girin."
+  #DEFINE FBC_SUPP5_01    "Supplemental 5 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_SUPP2_01    "The Supplemental 2 kodu sadece sayýsal deðerleri kabul eder."
+  #DEFINE FBC_EAN128_01    "EAN/UCC/GS1 128 için geçersiz karakter."
+  #DEFINE FBC_RM4SCC_01    "Code RM4SCC için geçersiz karakter."
+  #DEFINE FBC_KIX_01    "KIX-Code için geçersiz karakter."
 
 #ELIF FBC_LANGUAGE = "INDONESIAN"
   *--------------------------------
   * INDONESIAN LANGUAGE
   * Translate by Samir H.
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Font atau style tidak diperbolehkan di GDI+"
-  #DEFINE FBC_FBC_02		"Simbologi barcode belum terimplementasi."
-  #DEFINE FBC_FBC_03		"Teks pengkodean kosong."
-  #DEFINE FBC_I2O5_01		"Interleaved 2 of 5 hanya menerima karakter numerik."
-  #DEFINE FBC_S2O5_01		"Standard 2 of 5 hanya menerima karakter numerik."
-  #DEFINE FBC_CODABAR_01	"Codabar hanya menerima karakter berikut: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Karakter tidak valid untuk Code 128 Set A."
-  #DEFINE FBC_128B_01		"Karakter tidak valid untuk Code 128 Set B."
-  #DEFINE FBC_128C_01		"Code 128 Set C hanya menerima karakter numerik."
-  #DEFINE FBC_39EXT_01		"Karakter tidak valid untuk Code 39 Full ASCII."
-  #DEFINE FBC_39_01			"Karakter tidak valid untuk Code 39."
-  #DEFINE FBC_93EXT_01		"Karakter tidak valid untuk Code 93 Full ASCII."
-  #DEFINE FBC_93_01			"Karakter tidak valid untuk Code 93."
-  #DEFINE FBC_ITF14_01		"Kode ITF-14 hanya menerima karakter numerik."
-  #DEFINE FBC_ITF14_02		"ITF-14: Panjang kode harus 13 or 14."
-  #DEFINE FBC_ITF14_03		"ITF-14: Cek digit yang benar adalah "
-  #DEFINE FBC_EAN13_01		"Kode EAN-13 hanya menerima karakter numerik."
-  #DEFINE FBC_EAN13_02		"Panjang kode harus 12 or 13. Dengan suplemen antara 14 dan 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: Cek digit yang benar adalah "
-  #DEFINE FBC_EAN8_01		"Kode EAN-8 hanya menerima karakter numerik."
-  #DEFINE FBC_EAN8_02		"EAN-8: Panjang kode harus 7 or 8. With supplement between 9 dan 13."
-  #DEFINE FBC_EAN8_03		"EAN-8: Cek digit yang benar adalah "
-  #DEFINE FBC_UPCA_01		"Kode UPC-A hanya menerima karakter numerik."
-  #DEFINE FBC_UPCA_02		"UPC-A: Panjang kode harus 11 or 12. Dengan suplemen antara 13 dan 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: Cek digit yang benar adalah "
-  #DEFINE FBC_UPCB_01		"Kode UPC-E hanya menerima karakter numerik."
-  #DEFINE FBC_UPCB_02		"UPC-E: Panjang kode harus 6 or 7. Dengan suplemen antara 8 dan 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: Cek digit yang benar adalah "
-  #DEFINE FBC_MSI_01		"Kode MSI/Plessey hanya menerima karakter numerik."
-  #DEFINE FBC_11_01			"Code 11 hanya menerima karakter numerik dan - (Strip)."
-  #DEFINE FBC_POSTNET_01	"Kode PostNet hanya menerima karakter numerik."
-  #DEFINE FBC_POSTNET_02	"PostNet: Panjang kode harus 5,9,11"
-  #DEFINE FBC_IMB_01		"Intelligent Mail Barcode hanya menerima karakter numerik."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: Panjang kode harus 5, 9, 11"
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode segera..."
-  #DEFINE FBC_TELEPEN_01	"Karacter tidak valid untuk kode Telepen."
-  #DEFINE FBC_PHARMA1_01	"Kode Pharmacode hanya menerima karakter numerik."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: Masukan nilai antara 3 dan 131070."
-  #DEFINE FBC_PHARMA1_03	"Kode Pharmacode hanya menerima karakter numerik."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Masukan nilai antara 3 dan 131070."
-  #DEFINE FBC_SUPP5_01		"Kode Supplemental 5 hanya menerima karakter numerik."
-  #DEFINE FBC_SUPP2_01		"Kode Supplemental 2 hanya menerima karakter numerik."
-  #DEFINE FBC_EAN128_01		"Karacter tidak valid untuk EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Karakter tidak valid untuk Code RM4SCC."
-  #DEFINE FBC_KIX_01		"Karakter tidak valid untuk KIX-Code."
+  #DEFINE FBC_FBC_01    "Font atau style tidak diperbolehkan di GDI+"
+  #DEFINE FBC_FBC_02    "Simbologi barcode belum terimplementasi."
+  #DEFINE FBC_FBC_03    "Teks pengkodean kosong."
+  #DEFINE FBC_I2O5_01    "Interleaved 2 of 5 hanya menerima karakter numerik."
+  #DEFINE FBC_S2O5_01    "Standard 2 of 5 hanya menerima karakter numerik."
+  #DEFINE FBC_CODABAR_01  "Codabar hanya menerima karakter berikut: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Karakter tidak valid untuk Code 128 Set A."
+  #DEFINE FBC_128B_01    "Karakter tidak valid untuk Code 128 Set B."
+  #DEFINE FBC_128C_01    "Code 128 Set C hanya menerima karakter numerik."
+  #DEFINE FBC_39EXT_01    "Karakter tidak valid untuk Code 39 Full ASCII."
+  #DEFINE FBC_39_01      "Karakter tidak valid untuk Code 39."
+  #DEFINE FBC_93EXT_01    "Karakter tidak valid untuk Code 93 Full ASCII."
+  #DEFINE FBC_93_01      "Karakter tidak valid untuk Code 93."
+  #DEFINE FBC_ITF14_01    "Kode ITF-14 hanya menerima karakter numerik."
+  #DEFINE FBC_ITF14_02    "ITF-14: Panjang kode harus 13 or 14."
+  #DEFINE FBC_ITF14_03    "ITF-14: Cek digit yang benar adalah "
+  #DEFINE FBC_EAN13_01    "Kode EAN-13 hanya menerima karakter numerik."
+  #DEFINE FBC_EAN13_02    "Panjang kode harus 12 or 13. Dengan suplemen antara 14 dan 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: Cek digit yang benar adalah "
+  #DEFINE FBC_EAN8_01    "Kode EAN-8 hanya menerima karakter numerik."
+  #DEFINE FBC_EAN8_02    "EAN-8: Panjang kode harus 7 or 8. With supplement between 9 dan 13."
+  #DEFINE FBC_EAN8_03    "EAN-8: Cek digit yang benar adalah "
+  #DEFINE FBC_UPCA_01    "Kode UPC-A hanya menerima karakter numerik."
+  #DEFINE FBC_UPCA_02    "UPC-A: Panjang kode harus 11 or 12. Dengan suplemen antara 13 dan 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: Cek digit yang benar adalah "
+  #DEFINE FBC_UPCB_01    "Kode UPC-E hanya menerima karakter numerik."
+  #DEFINE FBC_UPCB_02    "UPC-E: Panjang kode harus 6 or 7. Dengan suplemen antara 8 dan 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: Cek digit yang benar adalah "
+  #DEFINE FBC_MSI_01    "Kode MSI/Plessey hanya menerima karakter numerik."
+  #DEFINE FBC_11_01      "Code 11 hanya menerima karakter numerik dan - (Strip)."
+  #DEFINE FBC_POSTNET_01  "Kode PostNet hanya menerima karakter numerik."
+  #DEFINE FBC_POSTNET_02  "PostNet: Panjang kode harus 5,9,11"
+  #DEFINE FBC_IMB_01    "Intelligent Mail Barcode hanya menerima karakter numerik."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: Panjang kode harus 5, 9, 11"
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode segera..."
+  #DEFINE FBC_TELEPEN_01  "Karacter tidak valid untuk kode Telepen."
+  #DEFINE FBC_PHARMA1_01  "Kode Pharmacode hanya menerima karakter numerik."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: Masukan nilai antara 3 dan 131070."
+  #DEFINE FBC_PHARMA1_03  "Kode Pharmacode hanya menerima karakter numerik."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Masukan nilai antara 3 dan 131070."
+  #DEFINE FBC_SUPP5_01    "Kode Supplemental 5 hanya menerima karakter numerik."
+  #DEFINE FBC_SUPP2_01    "Kode Supplemental 2 hanya menerima karakter numerik."
+  #DEFINE FBC_EAN128_01    "Karacter tidak valid untuk EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Karakter tidak valid untuk Code RM4SCC."
+  #DEFINE FBC_KIX_01    "Karakter tidak valid untuk KIX-Code."
 
 #ELIF FBC_LANGUAGE = "GERMAN"
   *--------------------------------
   * GERMAN LANGUAGE
   * Translate by Stefan Wuebbe
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Schriftart oder -schnitt wird von GDI+ nicht unterstützt."
-  #DEFINE FBC_FBC_02		"Barcode-Symbologie nicht implementiert."
-  #DEFINE FBC_FBC_03		"Die Text-Encodierung ist leer."
-  #DEFINE FBC_I2O5_01		"'Interleaved 2 of 5' akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_S2O5_01		"Der 'Standard 2 of 5' Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_CODABAR_01	"Der Codabar Code akzeptiert nur folgende Zeichen: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Ungültige Zeichen für Code 128 Set A."
-  #DEFINE FBC_128B_01		"Ungültige Zeichen für Code 128 Set B."
-  #DEFINE FBC_128C_01		"Code 128 Set C akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_39EXT_01		"Ungültige Zeichen für Code 39 Full ASCII."
-  #DEFINE FBC_39_01			"Ungültige Zeichen für Code 39."
-  #DEFINE FBC_93EXT_01		"Ungültige Zeichen für Code 93 Full ASCII."
-  #DEFINE FBC_93_01			"Ungültige Zeichen für Code 93."
-  #DEFINE FBC_ITF14_01		"Der ITF-14 Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_ITF14_02		"ITF-14: Die Länge der Zeichenkette muss 13 oder 14 sein."
-  #DEFINE FBC_ITF14_03		"ITF-14: Die korrekte Prüfziffer ist "
-  #DEFINE FBC_EAN13_01		"Der EAN-13 Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_EAN13_02		"Die Länge der Zeichenkette muss 12 oder 13 sein. Mit Zusatz zwischen 14 und 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: Die korrekte Prüfziffer ist "
-  #DEFINE FBC_EAN8_01		"Der EAN-8 Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_EAN8_02		"EAN-8: Die Länge der Zeichenkette muss 7 oder 8 sein. Mit Zusatz zwischen 9 und 13."
-  #DEFINE FBC_EAN8_03		"EAN-8: Die korrekte Prüfziffer ist "
-  #DEFINE FBC_UPCA_01		"Der UPC-A Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_UPCA_02		"UPC-A: Die Länge der Zeichenkette muss 11 oder 12 sein. Mit Zusatz zwischen 13 und 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: Die korrekte Prüfziffer ist "
-  #DEFINE FBC_UPCB_01		"Der UPC-E Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_UPCB_02		"UPC-E: Die Länge der Zeichenkette muss 6 oder 7 sein. Mit Zusatz zwischen 8 und 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: Die korrekte Prüfziffer ist "
-  #DEFINE FBC_MSI_01		"Der MSI/Plessey Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_11_01			"Code 11 akzeptiert nur numerische Zeichen und - (Querstrich)."
-  #DEFINE FBC_POSTNET_01	"Der PostNet Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_POSTNET_02	"PostNet: Die Länge der Zeichenkette muss 5, 9 oder 11 sein."
-  #DEFINE FBC_IMB_01		"Der Intelligent Mail Barcode akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: Die Länge der Zeichenkette muss 5, 9 oder 11 sein."
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode wird sofort ..."
-  #DEFINE FBC_TELEPEN_01	"Ungültige Zeichen für den Telepen Code."
-  #DEFINE FBC_PHARMA1_01	"Der Pharmacode akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: Eingabewerte zwischen 3 und 131070."
-  #DEFINE FBC_PHARMA1_03	"Pharmacode akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Eingabewerte zwischen 4 und 64570080."
-  #DEFINE FBC_SUPP5_01		"Der Supplemental 5 Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_SUPP2_01		"Der Supplemental 2 Code akzeptiert nur numerische Zeichen."
-  #DEFINE FBC_EAN128_01		"Ungültige Zeichen für EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Ungültige Zeichen für Code RM4SCC."
-  #DEFINE FBC_KIX_01		"Ungültige Zeichen für KIX-Code."
+  #DEFINE FBC_FBC_01    "Schriftart oder -schnitt wird von GDI+ nicht unterstützt."
+  #DEFINE FBC_FBC_02    "Barcode-Symbologie nicht implementiert."
+  #DEFINE FBC_FBC_03    "Die Text-Encodierung ist leer."
+  #DEFINE FBC_I2O5_01    "'Interleaved 2 of 5' akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_S2O5_01    "Der 'Standard 2 of 5' Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_CODABAR_01  "Der Codabar Code akzeptiert nur folgende Zeichen: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Ungültige Zeichen für Code 128 Set A."
+  #DEFINE FBC_128B_01    "Ungültige Zeichen für Code 128 Set B."
+  #DEFINE FBC_128C_01    "Code 128 Set C akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_39EXT_01    "Ungültige Zeichen für Code 39 Full ASCII."
+  #DEFINE FBC_39_01      "Ungültige Zeichen für Code 39."
+  #DEFINE FBC_93EXT_01    "Ungültige Zeichen für Code 93 Full ASCII."
+  #DEFINE FBC_93_01      "Ungültige Zeichen für Code 93."
+  #DEFINE FBC_ITF14_01    "Der ITF-14 Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_ITF14_02    "ITF-14: Die Länge der Zeichenkette muss 13 oder 14 sein."
+  #DEFINE FBC_ITF14_03    "ITF-14: Die korrekte Prüfziffer ist "
+  #DEFINE FBC_EAN13_01    "Der EAN-13 Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_EAN13_02    "Die Länge der Zeichenkette muss 12 oder 13 sein. Mit Zusatz zwischen 14 und 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: Die korrekte Prüfziffer ist "
+  #DEFINE FBC_EAN8_01    "Der EAN-8 Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_EAN8_02    "EAN-8: Die Länge der Zeichenkette muss 7 oder 8 sein. Mit Zusatz zwischen 9 und 13."
+  #DEFINE FBC_EAN8_03    "EAN-8: Die korrekte Prüfziffer ist "
+  #DEFINE FBC_UPCA_01    "Der UPC-A Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_UPCA_02    "UPC-A: Die Länge der Zeichenkette muss 11 oder 12 sein. Mit Zusatz zwischen 13 und 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: Die korrekte Prüfziffer ist "
+  #DEFINE FBC_UPCB_01    "Der UPC-E Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_UPCB_02    "UPC-E: Die Länge der Zeichenkette muss 6 oder 7 sein. Mit Zusatz zwischen 8 und 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: Die korrekte Prüfziffer ist "
+  #DEFINE FBC_MSI_01    "Der MSI/Plessey Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_11_01      "Code 11 akzeptiert nur numerische Zeichen und - (Querstrich)."
+  #DEFINE FBC_POSTNET_01  "Der PostNet Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_POSTNET_02  "PostNet: Die Länge der Zeichenkette muss 5, 9 oder 11 sein."
+  #DEFINE FBC_IMB_01    "Der Intelligent Mail Barcode akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: Die Länge der Zeichenkette muss 5, 9 oder 11 sein."
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode wird sofort ..."
+  #DEFINE FBC_TELEPEN_01  "Ungültige Zeichen für den Telepen Code."
+  #DEFINE FBC_PHARMA1_01  "Der Pharmacode akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: Eingabewerte zwischen 3 und 131070."
+  #DEFINE FBC_PHARMA1_03  "Pharmacode akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Eingabewerte zwischen 4 und 64570080."
+  #DEFINE FBC_SUPP5_01    "Der Supplemental 5 Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_SUPP2_01    "Der Supplemental 2 Code akzeptiert nur numerische Zeichen."
+  #DEFINE FBC_EAN128_01    "Ungültige Zeichen für EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Ungültige Zeichen für Code RM4SCC."
+  #DEFINE FBC_KIX_01    "Ungültige Zeichen für KIX-Code."
 
 #ELIF FBC_LANGUAGE = "FILIPINO"
   *--------------------------------
   * FILIPINO LANGUAGE
   * Translate by Glenn Gevero
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Ang font o stilo ay hindi maaari sa GDI+"
-  #DEFINE FBC_FBC_02		"Simbolo ng barcode ay hindi pa ipinatupad"
-  #DEFINE FBC_FBC_03		"Ang text encoding ay blanko"
-  #DEFINE FBC_I2O5_01		"Ang interleaved na 2 at 5 code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_S2O5_01		"Ang pamantayan na 2 at 5 code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_CODABAR_01	"Ang codabar code ay tumatangap lamang ng mga sumusunod na characters: 0123456789-$:/.+ "
-  #DEFINE FBC_128A_01		"Hindi tama ang mga characters para sa code 128 Set A"
-  #DEFINE FBC_128B_01		"Hindi tama ang mga characters para sa code 128 Set B"
-  #DEFINE FBC_128C_01		"Ang code 128 Set C ay tumatanggap lamang ng mga sumusunod na characters"
-  #DEFINE FBC_39EXT_01		"Hindi tama ang mga characters para sa Code 39 Full ASCII"
-  #DEFINE FBC_39_01			"Hindi tama ang mga characters para sa Code 39"
-  #DEFINE FBC_93EXT_01		"Hindi tama ang mga characters para sa Code 39 Full ASCII"
-  #DEFINE FBC_93_01			"Hindi tama ang mga characters para sa Code 93"
-  #DEFINE FBC_ITF14_01		"Ang ITF-14: code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_ITF14_02		"ITF-14: Ang haba ng string ay dapat 13 o 14"
-  #DEFINE FBC_ITF14_03		"ITF-14: Ang tamang check digit ay"
-  #DEFINE FBC_EAN13_01		"Ang EAN-13 code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_EAN13_02		"Ang haba ng string ay dapat 12 o 13. At may karagdagan sa pagitan ng 14 at 18"
-  #DEFINE FBC_EAN13_03		"EAN-13: Ang tamang check digit ay"
-  #DEFINE FBC_EAN8_01		"Ang EAN-8 ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_EAN8_02		"EAN-8: Ang haba ng string ay dapat 7 o 8. At may karagdagan sa pagitan ng 9 at 13"
-  #DEFINE FBC_EAN8_03		"EAN-8: Ang correct check digit ay"
-  #DEFINE FBC_UPCA_01		"Ang UPC-A code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_UPCA_02		"UPC-A: Ang haba ng string ay dapat 11 0 12. At may karagdagan sa pagitan ng 12 at 17"
-  #DEFINE FBC_UPCA_03		"UPC-A: Ang tamang check digit ay"
-  #DEFINE FBC_UPCB_01		"ANg UPC-E code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_UPCB_02		"UPC-E: Ang haba ng string ay dapat 6 o 7. AT may karagdagan sa pagitan ng 8 at 12"
-  #DEFINE FBC_UPCB_03		"UPC-E: The correct check digit is " "UPC-E: Ang tamang check digit ay"
-  #DEFINE FBC_MSI_01		"Ang MSI/Plessy code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_11_01			"Ang code 11 ay tumatanggap lamang ng mga numero at - (Dash)"
-  #DEFINE FBC_POSTNET_01	"Ang PostNet code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_POSTNET_02	"PostNet: Ang haba ng string ay dapat 5,9,11"
-  #DEFINE FBC_IMB_01		"Ang Intelligent Mail Barcode ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_IMB_02		"Intelligent mail Barcode: Ang haba ng string ay dapat 5,9,11"
-  #DEFINE FBC_IMB_99		"Abangan ang Intelligent Mail Barcode"
-  #DEFINE FBC_TELEPEN_01	"Hindi tama ang character para sa Telepen code"
-  #DEFINE FBC_PHARMA1_01	"Ang Pharmacode ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: Ang Input Values ay dapat sa pagitan ng 3 at 131070"
-  #DEFINE FBC_PHARMA1_03	"Ang Pharmacode ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Ang input values ay dapat sa pagitan ng 3 at 64570080"
-  #DEFINE FBC_SUPP5_01		"Ang Supplemental 5 code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_SUPP2_01		"Ang Supplemental 2 code ay tumatanggap lamang ng mga numero"
-  #DEFINE FBC_EAN128_01		"Hindi tama ang mga characters para sa EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Hindi tama ang mga characters para sa Code RM4SCC"
-  #DEFINE FBC_KIX_01		"Hindi tama ang mga characters para sa KIX-Code"
+  #DEFINE FBC_FBC_01    "Ang font o stilo ay hindi maaari sa GDI+"
+  #DEFINE FBC_FBC_02    "Simbolo ng barcode ay hindi pa ipinatupad"
+  #DEFINE FBC_FBC_03    "Ang text encoding ay blanko"
+  #DEFINE FBC_I2O5_01    "Ang interleaved na 2 at 5 code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_S2O5_01    "Ang pamantayan na 2 at 5 code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_CODABAR_01  "Ang codabar code ay tumatangap lamang ng mga sumusunod na characters: 0123456789-$:/.+ "
+  #DEFINE FBC_128A_01    "Hindi tama ang mga characters para sa code 128 Set A"
+  #DEFINE FBC_128B_01    "Hindi tama ang mga characters para sa code 128 Set B"
+  #DEFINE FBC_128C_01    "Ang code 128 Set C ay tumatanggap lamang ng mga sumusunod na characters"
+  #DEFINE FBC_39EXT_01    "Hindi tama ang mga characters para sa Code 39 Full ASCII"
+  #DEFINE FBC_39_01      "Hindi tama ang mga characters para sa Code 39"
+  #DEFINE FBC_93EXT_01    "Hindi tama ang mga characters para sa Code 39 Full ASCII"
+  #DEFINE FBC_93_01      "Hindi tama ang mga characters para sa Code 93"
+  #DEFINE FBC_ITF14_01    "Ang ITF-14: code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_ITF14_02    "ITF-14: Ang haba ng string ay dapat 13 o 14"
+  #DEFINE FBC_ITF14_03    "ITF-14: Ang tamang check digit ay"
+  #DEFINE FBC_EAN13_01    "Ang EAN-13 code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_EAN13_02    "Ang haba ng string ay dapat 12 o 13. At may karagdagan sa pagitan ng 14 at 18"
+  #DEFINE FBC_EAN13_03    "EAN-13: Ang tamang check digit ay"
+  #DEFINE FBC_EAN8_01    "Ang EAN-8 ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_EAN8_02    "EAN-8: Ang haba ng string ay dapat 7 o 8. At may karagdagan sa pagitan ng 9 at 13"
+  #DEFINE FBC_EAN8_03    "EAN-8: Ang correct check digit ay"
+  #DEFINE FBC_UPCA_01    "Ang UPC-A code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_UPCA_02    "UPC-A: Ang haba ng string ay dapat 11 0 12. At may karagdagan sa pagitan ng 12 at 17"
+  #DEFINE FBC_UPCA_03    "UPC-A: Ang tamang check digit ay"
+  #DEFINE FBC_UPCB_01    "ANg UPC-E code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_UPCB_02    "UPC-E: Ang haba ng string ay dapat 6 o 7. AT may karagdagan sa pagitan ng 8 at 12"
+  #DEFINE FBC_UPCB_03    "UPC-E: The correct check digit is " "UPC-E: Ang tamang check digit ay"
+  #DEFINE FBC_MSI_01    "Ang MSI/Plessy code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_11_01      "Ang code 11 ay tumatanggap lamang ng mga numero at - (Dash)"
+  #DEFINE FBC_POSTNET_01  "Ang PostNet code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_POSTNET_02  "PostNet: Ang haba ng string ay dapat 5,9,11"
+  #DEFINE FBC_IMB_01    "Ang Intelligent Mail Barcode ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_IMB_02    "Intelligent mail Barcode: Ang haba ng string ay dapat 5,9,11"
+  #DEFINE FBC_IMB_99    "Abangan ang Intelligent Mail Barcode"
+  #DEFINE FBC_TELEPEN_01  "Hindi tama ang character para sa Telepen code"
+  #DEFINE FBC_PHARMA1_01  "Ang Pharmacode ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: Ang Input Values ay dapat sa pagitan ng 3 at 131070"
+  #DEFINE FBC_PHARMA1_03  "Ang Pharmacode ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Ang input values ay dapat sa pagitan ng 3 at 64570080"
+  #DEFINE FBC_SUPP5_01    "Ang Supplemental 5 code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_SUPP2_01    "Ang Supplemental 2 code ay tumatanggap lamang ng mga numero"
+  #DEFINE FBC_EAN128_01    "Hindi tama ang mga characters para sa EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Hindi tama ang mga characters para sa Code RM4SCC"
+  #DEFINE FBC_KIX_01    "Hindi tama ang mga characters para sa KIX-Code"
 
 #ELIF FBC_LANGUAGE = "FRENCH"
   *--------------------------------
   * INDONESIAN FRENCH
   * Translate by Samir H.
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Police ou style n'est pas autorisé dans GDI+"
-  #DEFINE FBC_FBC_02		"Cette symbologie n'est pas encore mise en œuvre."
-  #DEFINE FBC_FBC_03		"Le texte à coder est vide."
-  #DEFINE FBC_I2O5_01		"Le code Interleaved 2 of 5 n'accepte que des caractères numériques."
-  #DEFINE FBC_S2O5_01		"Le code Standard 2 of 5 n'accepte que des caractères numériques."
-  #DEFINE FBC_CODABAR_01	"Le code Codabar accepte uniquement les caractères suivants: 0123456789 -$:/.+"
-  #DEFINE FBC_128A_01		"Caractères non valides pour le code Code 128 Set A."
-  #DEFINE FBC_128B_01		"Caractères non valides pour le code Code 128 Set B."
-  #DEFINE FBC_128C_01		"Le code Code 128 Set C n'accepte que des caractères numériques."
-  #DEFINE FBC_39EXT_01		"Caractères non valides pour le code Code 39 Full ASCII."
-  #DEFINE FBC_39_01			"Caractères non valides pour le code Code 39."
-  #DEFINE FBC_93EXT_01		"Caractères non valides pour le code Code 93 Full ASCII."
-  #DEFINE FBC_93_01			"Caractères non valides pour le code Code 93."
-  #DEFINE FBC_ITF14_01		"Le code ITF-14 n'accepte que des caractères numériques."
-  #DEFINE FBC_ITF14_02		"ITF-14: La longueur de la chaîne doit être de 13 ou 14."
-  #DEFINE FBC_ITF14_03		"ITF-14: Le chiffre de contrôle correct est "
-  #DEFINE FBC_EAN13_01		"Le code EAN-13 n'accepte que des caractères numériques."
-  #DEFINE FBC_EAN13_02		"La longueur de la chaîne doit être de 12 ou 13. Avec supplément entre 14 et 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: Le chiffre de contrôle correct est "
-  #DEFINE FBC_EAN8_01		"Le code EAN-8 n'accepte que des caractères numériques."
-  #DEFINE FBC_EAN8_02		"EAN-8: La longueur de la chaîne doit être de 7 ou 8. Avec supplément entre 9 et 13."
-  #DEFINE FBC_EAN8_03		"EAN-8: Le chiffre de contrôle correct est "
-  #DEFINE FBC_UPCA_01		"Le code UPC-A n'accepte que des caractères numériques."
-  #DEFINE FBC_UPCA_02		"UPC-A: La longueur de la chaîne doit être de 11 ou 12. Avec supplément entre 13 et 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: Le chiffre de contrôle correct est "
-  #DEFINE FBC_UPCB_01		"Le code UPC-E n'accepte que des caractères numériques."
-  #DEFINE FBC_UPCB_02		"UPC-E: La longueur de la chaîne doit être de 6 ou 7. Avec supplément entre 8 et 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: Le chiffre de contrôle correct est "
-  #DEFINE FBC_MSI_01		"Le code MSI/Plessey n'accepte que des caractères numériques."
-  #DEFINE FBC_11_01			"Le code Code 11 n'accepte que des caractères numériques et - (Tiret)."
-  #DEFINE FBC_POSTNET_01	"Le code PostNet n'accepte que des caractères numériques."
-  #DEFINE FBC_POSTNET_02	"PostNet: La longueur de la chaîne doit être de 5, 9, ou 11"
-  #DEFINE FBC_IMB_01		"Le code Intelligent Mail Barcode n'accepte que des caractères numériques."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: La longueur de la chaîne doit être de 5, 9, ou 11"
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode bientôt..."
-  #DEFINE FBC_TELEPEN_01	"Caractère non valide pour le code Telepen."
-  #DEFINE FBC_PHARMA1_01	"Le code Pharmacode n'accepte que des caractères numériques."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: Valeurs d'entrée entre 3 et 131070."
-  #DEFINE FBC_PHARMA1_03	"Le code Pharmacode n'accepte que des caractères numériques."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Valeurs d'entrée entre 4 et 64570080."
-  #DEFINE FBC_SUPP5_01		"Le code Supplemental 5 n'accepte que des caractères numériques."
-  #DEFINE FBC_SUPP2_01		"Le code Supplemental 2 n'accepte que des caractères numériques."
-  #DEFINE FBC_EAN128_01		"Caractères non valides pour le code EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Caractères non valides pour le code Code RM4SCC."
-  #DEFINE FBC_KIX_01		"Caractères non valides pour le code KIX-Code."
+  #DEFINE FBC_FBC_01    "Police ou style n'est pas autorisé dans GDI+"
+  #DEFINE FBC_FBC_02    "Cette symbologie n'est pas encore mise en œuvre."
+  #DEFINE FBC_FBC_03    "Le texte à coder est vide."
+  #DEFINE FBC_I2O5_01    "Le code Interleaved 2 of 5 n'accepte que des caractères numériques."
+  #DEFINE FBC_S2O5_01    "Le code Standard 2 of 5 n'accepte que des caractères numériques."
+  #DEFINE FBC_CODABAR_01  "Le code Codabar accepte uniquement les caractères suivants: 0123456789 -$:/.+"
+  #DEFINE FBC_128A_01    "Caractères non valides pour le code Code 128 Set A."
+  #DEFINE FBC_128B_01    "Caractères non valides pour le code Code 128 Set B."
+  #DEFINE FBC_128C_01    "Le code Code 128 Set C n'accepte que des caractères numériques."
+  #DEFINE FBC_39EXT_01    "Caractères non valides pour le code Code 39 Full ASCII."
+  #DEFINE FBC_39_01      "Caractères non valides pour le code Code 39."
+  #DEFINE FBC_93EXT_01    "Caractères non valides pour le code Code 93 Full ASCII."
+  #DEFINE FBC_93_01      "Caractères non valides pour le code Code 93."
+  #DEFINE FBC_ITF14_01    "Le code ITF-14 n'accepte que des caractères numériques."
+  #DEFINE FBC_ITF14_02    "ITF-14: La longueur de la chaîne doit être de 13 ou 14."
+  #DEFINE FBC_ITF14_03    "ITF-14: Le chiffre de contrôle correct est "
+  #DEFINE FBC_EAN13_01    "Le code EAN-13 n'accepte que des caractères numériques."
+  #DEFINE FBC_EAN13_02    "La longueur de la chaîne doit être de 12 ou 13. Avec supplément entre 14 et 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: Le chiffre de contrôle correct est "
+  #DEFINE FBC_EAN8_01    "Le code EAN-8 n'accepte que des caractères numériques."
+  #DEFINE FBC_EAN8_02    "EAN-8: La longueur de la chaîne doit être de 7 ou 8. Avec supplément entre 9 et 13."
+  #DEFINE FBC_EAN8_03    "EAN-8: Le chiffre de contrôle correct est "
+  #DEFINE FBC_UPCA_01    "Le code UPC-A n'accepte que des caractères numériques."
+  #DEFINE FBC_UPCA_02    "UPC-A: La longueur de la chaîne doit être de 11 ou 12. Avec supplément entre 13 et 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: Le chiffre de contrôle correct est "
+  #DEFINE FBC_UPCB_01    "Le code UPC-E n'accepte que des caractères numériques."
+  #DEFINE FBC_UPCB_02    "UPC-E: La longueur de la chaîne doit être de 6 ou 7. Avec supplément entre 8 et 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: Le chiffre de contrôle correct est "
+  #DEFINE FBC_MSI_01    "Le code MSI/Plessey n'accepte que des caractères numériques."
+  #DEFINE FBC_11_01      "Le code Code 11 n'accepte que des caractères numériques et - (Tiret)."
+  #DEFINE FBC_POSTNET_01  "Le code PostNet n'accepte que des caractères numériques."
+  #DEFINE FBC_POSTNET_02  "PostNet: La longueur de la chaîne doit être de 5, 9, ou 11"
+  #DEFINE FBC_IMB_01    "Le code Intelligent Mail Barcode n'accepte que des caractères numériques."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: La longueur de la chaîne doit être de 5, 9, ou 11"
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode bientôt..."
+  #DEFINE FBC_TELEPEN_01  "Caractère non valide pour le code Telepen."
+  #DEFINE FBC_PHARMA1_01  "Le code Pharmacode n'accepte que des caractères numériques."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: Valeurs d'entrée entre 3 et 131070."
+  #DEFINE FBC_PHARMA1_03  "Le code Pharmacode n'accepte que des caractères numériques."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Valeurs d'entrée entre 4 et 64570080."
+  #DEFINE FBC_SUPP5_01    "Le code Supplemental 5 n'accepte que des caractères numériques."
+  #DEFINE FBC_SUPP2_01    "Le code Supplemental 2 n'accepte que des caractères numériques."
+  #DEFINE FBC_EAN128_01    "Caractères non valides pour le code EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Caractères non valides pour le code Code RM4SCC."
+  #DEFINE FBC_KIX_01    "Caractères non valides pour le code KIX-Code."
 
 #ELIF FBC_LANGUAGE = "SERBIAN"
   *--------------------------------
   * SERBIAN LANGUAGE
   * Translate by Michael Kopljan
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Font ili stil nije dozvoljen u GDI+."
-  #DEFINE FBC_FBC_02		"Tip barkoda nije implementiran."
-  #DEFINE FBC_FBC_03		"Nepostojanje texta koji treba da se enkoduje."
-  #DEFINE FBC_I2O5_01		"Interleaved 2 od 5 barkod prihvata samo numerièke podatke."
-  #DEFINE FBC_S2O5_01		"Standard 2 od 5 barkod prihvata samo numerièke podatke."
-  #DEFINE FBC_CODABAR_01	"Codabar barkod prihvata samo sledeæe karaktere: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Postojanje nedozvoljenih karaktera za barkod Code 128 Set A."
-  #DEFINE FBC_128B_01		"Postojanje nedozvoljenih karaktera za barkod Code 128 Set B."
-  #DEFINE FBC_128C_01		"Barkod Code 128 Set C prihvata samo numerièke znakove."
-  #DEFINE FBC_39EXT_01		"Nedozvoljeni karakter za barkod Code 39 pun ASCII."
-  #DEFINE FBC_39_01			"Nedozvoljeni karakteri za barkod Code 39."
-  #DEFINE FBC_93EXT_01		"Nedozvoljeni karakter za barkod Code 93 pun ASCII."
-  #DEFINE FBC_93_01			"Nedozvoljeni karakteri za barkod Code 93."
-  #DEFINE FBC_ITF14_01		"ITF-14 barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_ITF14_02		"ITF-14: dužina stringa mora biti 13 ili 14 znakova."
-  #DEFINE FBC_ITF14_03		"ITF-14: taèna kotrolna cifra je "
-  #DEFINE FBC_EAN13_01		"EAN-13 barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_EAN13_02		"Dužina stringa mora biti 12 ili 13 znakova. Sa dodatkom izmeðu 14 i 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: taèna kotrolna cifra je "
-  #DEFINE FBC_EAN8_01		"The EAN-8 barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_EAN8_02		"EAN-8: Dužina stringa mora biti 7 ili 8 znakova. Sa dodatkom izmeðu 9 i 13."
-  #DEFINE FBC_EAN8_03		"EAN-8: taèna kotrolna cifra je "
-  #DEFINE FBC_UPCA_01		"UPC-A barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_UPCA_02		"UPC-A: Dužina stringa mora biti 11 ili 12 znakova. Sa dodatkom izmeðu 13 i 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: taèna kotrolna cifra je "
-  #DEFINE FBC_UPCB_01		"UPC-E barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_UPCB_02		"UPC-E: Dužina stringa mora biti 6 or 7 znakova. Sa dodatkom izmeðu 8 i 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: taèna kotrolna cifra je "
-  #DEFINE FBC_MSI_01		"MSI/Plessey barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_11_01			"Code 11 barkod prihvata samo numerièke znakove i - (crtu)."
-  #DEFINE FBC_POSTNET_01	"PostNet barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_POSTNET_02	"PostNet: Dužina stringa mora biti 5,9,11 znakova"
-  #DEFINE FBC_IMB_01		"Intelligent Mail barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: Dužina stringa mora biti 5,9,11"
-  #DEFINE FBC_IMB_99		"Intelligent Mail barkod uskoro ..."
-  #DEFINE FBC_TELEPEN_01	"Nedozvoljeni karakter za barkod Telepen."
-  #DEFINE FBC_PHARMA1_01	"Pharmacode barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: Unesite vrednosti izmeðu 3 i 131070."
-  #DEFINE FBC_PHARMA1_03	"Pharmacode barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Unesite vrednosti izmeðu 4 i 64570080."
-  #DEFINE FBC_SUPP5_01		"Supplemental 5 barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_SUPP2_01		"Supplemental 2 barkod prihvata samo numerièke znakove."
-  #DEFINE FBC_EAN128_01		"Nedozvoljeni karakteri za barkod EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Nedozvoljeni karakter za barkod Code RM4SCC."
-  #DEFINE FBC_KIX_01		"Nedozvoljeni karakteri za barkod KIX-Code."
+  #DEFINE FBC_FBC_01    "Font ili stil nije dozvoljen u GDI+."
+  #DEFINE FBC_FBC_02    "Tip barkoda nije implementiran."
+  #DEFINE FBC_FBC_03    "Nepostojanje texta koji treba da se enkoduje."
+  #DEFINE FBC_I2O5_01    "Interleaved 2 od 5 barkod prihvata samo numerièke podatke."
+  #DEFINE FBC_S2O5_01    "Standard 2 od 5 barkod prihvata samo numerièke podatke."
+  #DEFINE FBC_CODABAR_01  "Codabar barkod prihvata samo sledeæe karaktere: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Postojanje nedozvoljenih karaktera za barkod Code 128 Set A."
+  #DEFINE FBC_128B_01    "Postojanje nedozvoljenih karaktera za barkod Code 128 Set B."
+  #DEFINE FBC_128C_01    "Barkod Code 128 Set C prihvata samo numerièke znakove."
+  #DEFINE FBC_39EXT_01    "Nedozvoljeni karakter za barkod Code 39 pun ASCII."
+  #DEFINE FBC_39_01      "Nedozvoljeni karakteri za barkod Code 39."
+  #DEFINE FBC_93EXT_01    "Nedozvoljeni karakter za barkod Code 93 pun ASCII."
+  #DEFINE FBC_93_01      "Nedozvoljeni karakteri za barkod Code 93."
+  #DEFINE FBC_ITF14_01    "ITF-14 barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_ITF14_02    "ITF-14: dužina stringa mora biti 13 ili 14 znakova."
+  #DEFINE FBC_ITF14_03    "ITF-14: taèna kotrolna cifra je "
+  #DEFINE FBC_EAN13_01    "EAN-13 barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_EAN13_02    "Dužina stringa mora biti 12 ili 13 znakova. Sa dodatkom izmeðu 14 i 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: taèna kotrolna cifra je "
+  #DEFINE FBC_EAN8_01    "The EAN-8 barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_EAN8_02    "EAN-8: Dužina stringa mora biti 7 ili 8 znakova. Sa dodatkom izmeðu 9 i 13."
+  #DEFINE FBC_EAN8_03    "EAN-8: taèna kotrolna cifra je "
+  #DEFINE FBC_UPCA_01    "UPC-A barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_UPCA_02    "UPC-A: Dužina stringa mora biti 11 ili 12 znakova. Sa dodatkom izmeðu 13 i 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: taèna kotrolna cifra je "
+  #DEFINE FBC_UPCB_01    "UPC-E barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_UPCB_02    "UPC-E: Dužina stringa mora biti 6 or 7 znakova. Sa dodatkom izmeðu 8 i 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: taèna kotrolna cifra je "
+  #DEFINE FBC_MSI_01    "MSI/Plessey barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_11_01      "Code 11 barkod prihvata samo numerièke znakove i - (crtu)."
+  #DEFINE FBC_POSTNET_01  "PostNet barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_POSTNET_02  "PostNet: Dužina stringa mora biti 5,9,11 znakova"
+  #DEFINE FBC_IMB_01    "Intelligent Mail barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: Dužina stringa mora biti 5,9,11"
+  #DEFINE FBC_IMB_99    "Intelligent Mail barkod uskoro ..."
+  #DEFINE FBC_TELEPEN_01  "Nedozvoljeni karakter za barkod Telepen."
+  #DEFINE FBC_PHARMA1_01  "Pharmacode barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: Unesite vrednosti izmeðu 3 i 131070."
+  #DEFINE FBC_PHARMA1_03  "Pharmacode barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Unesite vrednosti izmeðu 4 i 64570080."
+  #DEFINE FBC_SUPP5_01    "Supplemental 5 barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_SUPP2_01    "Supplemental 2 barkod prihvata samo numerièke znakove."
+  #DEFINE FBC_EAN128_01    "Nedozvoljeni karakteri za barkod EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Nedozvoljeni karakter za barkod Code RM4SCC."
+  #DEFINE FBC_KIX_01    "Nedozvoljeni karakteri za barkod KIX-Code."
 
 #ELIF FBC_LANGUAGE = "ITALIAN"
   *--------------------------------
@@ -661,84 +661,84 @@
   * ENGLISH LANGUAGE BY DEFAULT
   * Translate by VFPEncoding
   *--------------------------------
-  #DEFINE FBC_FBC_01		"Font or style is not allowed in GDI+"
-  #DEFINE FBC_FBC_02		"Barcode symbology not implemented."
-  #DEFINE FBC_FBC_03		"The text encoding is blank."
-  #DEFINE FBC_I2O5_01		"The Interleaved 2 of 5 code accepts only numeric characters."
-  #DEFINE FBC_S2O5_01		"The Standard 2 of 5 code accepts only numeric characters."
-  #DEFINE FBC_CODABAR_01	"Codabar code only accepts the following characters: 0123456789-$:/.+"
-  #DEFINE FBC_128A_01		"Invalid characters for Code 128 Set A."
-  #DEFINE FBC_128B_01		"Invalid characters for Code 128 Set B."
-  #DEFINE FBC_128C_01		"The Code 128 Set C accepts only numeric characters."
-  #DEFINE FBC_39EXT_01		"Invalid character for Code 39 Full ASCII."
-  #DEFINE FBC_39_01			"Invalid characters for Code 39."
-  #DEFINE FBC_93EXT_01		"Invalid character for Code 93 Full ASCII."
-  #DEFINE FBC_93_01			"Invalid characters for Code 93."
-  #DEFINE FBC_ITF14_01		"The ITF-14 code accepts only numeric characters."
-  #DEFINE FBC_ITF14_02		"ITF-14: The length of the string must be 13 or 14."
-  #DEFINE FBC_ITF14_03		"ITF-14: The correct check digit is "
-  #DEFINE FBC_EAN13_01		"The EAN-13 code accepts only numeric characters."
-  #DEFINE FBC_EAN13_02		"The length of the string must be 12 or 13. With supplement between 14 and 18."
-  #DEFINE FBC_EAN13_03		"EAN-13: The correct check digit is "
-  #DEFINE FBC_EAN8_01		"The EAN-8 code accepts only numeric characters."
-  #DEFINE FBC_EAN8_02		"EAN-8: The length of the string must be 7 or 8. With supplement between 9 and 13."
-  #DEFINE FBC_EAN8_03		"EAN-8: The correct check digit is "
-  #DEFINE FBC_UPCA_01		"The UPC-A code accepts only numeric characters."
-  #DEFINE FBC_UPCA_02		"UPC-A: The length of the string must be 11 or 12. With supplement between 13 and 17."
-  #DEFINE FBC_UPCA_03		"UPC-A: The correct check digit is "
-  #DEFINE FBC_UPCB_01		"The UPC-E code accepts only numeric characters."
-  #DEFINE FBC_UPCB_02		"UPC-E: The length of the string must be 6 or 7. With supplement between 8 and 12."
-  #DEFINE FBC_UPCB_03		"UPC-E: The correct check digit is "
-  #DEFINE FBC_MSI_01		"The MSI/Plessey code accepts only numeric characters."
-  #DEFINE FBC_11_01			"The Code 11 accepts only numeric characters and - (Dash)."
-  #DEFINE FBC_POSTNET_01	"The PostNet code accepts only numeric characters."
-  #DEFINE FBC_POSTNET_02	"PostNet: The length of the string must be 5,9,11"
-  #DEFINE FBC_IMB_01		"The Intelligent Mail Barcode accepts only numeric characters."
-  #DEFINE FBC_IMB_02		"Intelligent Mail Barcode: The length of the string must be 5, 9 or 11"
-  #DEFINE FBC_IMB_99		"Intelligent Mail Barcode coming soon ..."
-  #DEFINE FBC_TELEPEN_01	"Invalid character for Telepen code."
-  #DEFINE FBC_PHARMA1_01	"The Pharmacode accepts only numeric characters."
-  #DEFINE FBC_PHARMA1_02	"Pharmacode: Input values between 3 and 131070."
-  #DEFINE FBC_PHARMA1_03	"The Pharmacode accepts only numeric characters."
-  #DEFINE FBC_PHARMA2_01	"Two Track Pharmacode: Input values between 4 and 64570080."
-  #DEFINE FBC_SUPP5_01		"The Supplemental 5 code accepts only numeric characters."
-  #DEFINE FBC_SUPP2_01		"The Supplemental 2 code accepts only numeric characters."
-  #DEFINE FBC_EAN128_01		"Invalid characters for EAN/UCC/GS1 128."
-  #DEFINE FBC_RM4SCC_01		"Invalid character for Code RM4SCC"
-  #DEFINE FBC_KIX_01		"Invalid character for KIX-Code"
+  #DEFINE FBC_FBC_01    "Font or style is not allowed in GDI+"
+  #DEFINE FBC_FBC_02    "Barcode symbology not implemented."
+  #DEFINE FBC_FBC_03    "The text encoding is blank."
+  #DEFINE FBC_I2O5_01    "The Interleaved 2 of 5 code accepts only numeric characters."
+  #DEFINE FBC_S2O5_01    "The Standard 2 of 5 code accepts only numeric characters."
+  #DEFINE FBC_CODABAR_01  "Codabar code only accepts the following characters: 0123456789-$:/.+"
+  #DEFINE FBC_128A_01    "Invalid characters for Code 128 Set A."
+  #DEFINE FBC_128B_01    "Invalid characters for Code 128 Set B."
+  #DEFINE FBC_128C_01    "The Code 128 Set C accepts only numeric characters."
+  #DEFINE FBC_39EXT_01    "Invalid character for Code 39 Full ASCII."
+  #DEFINE FBC_39_01      "Invalid characters for Code 39."
+  #DEFINE FBC_93EXT_01    "Invalid character for Code 93 Full ASCII."
+  #DEFINE FBC_93_01      "Invalid characters for Code 93."
+  #DEFINE FBC_ITF14_01    "The ITF-14 code accepts only numeric characters."
+  #DEFINE FBC_ITF14_02    "ITF-14: The length of the string must be 13 or 14."
+  #DEFINE FBC_ITF14_03    "ITF-14: The correct check digit is "
+  #DEFINE FBC_EAN13_01    "The EAN-13 code accepts only numeric characters."
+  #DEFINE FBC_EAN13_02    "The length of the string must be 12 or 13. With supplement between 14 and 18."
+  #DEFINE FBC_EAN13_03    "EAN-13: The correct check digit is "
+  #DEFINE FBC_EAN8_01    "The EAN-8 code accepts only numeric characters."
+  #DEFINE FBC_EAN8_02    "EAN-8: The length of the string must be 7 or 8. With supplement between 9 and 13."
+  #DEFINE FBC_EAN8_03    "EAN-8: The correct check digit is "
+  #DEFINE FBC_UPCA_01    "The UPC-A code accepts only numeric characters."
+  #DEFINE FBC_UPCA_02    "UPC-A: The length of the string must be 11 or 12. With supplement between 13 and 17."
+  #DEFINE FBC_UPCA_03    "UPC-A: The correct check digit is "
+  #DEFINE FBC_UPCB_01    "The UPC-E code accepts only numeric characters."
+  #DEFINE FBC_UPCB_02    "UPC-E: The length of the string must be 6 or 7. With supplement between 8 and 12."
+  #DEFINE FBC_UPCB_03    "UPC-E: The correct check digit is "
+  #DEFINE FBC_MSI_01    "The MSI/Plessey code accepts only numeric characters."
+  #DEFINE FBC_11_01      "The Code 11 accepts only numeric characters and - (Dash)."
+  #DEFINE FBC_POSTNET_01  "The PostNet code accepts only numeric characters."
+  #DEFINE FBC_POSTNET_02  "PostNet: The length of the string must be 5,9,11"
+  #DEFINE FBC_IMB_01    "The Intelligent Mail Barcode accepts only numeric characters."
+  #DEFINE FBC_IMB_02    "Intelligent Mail Barcode: The length of the string must be 5, 9 or 11"
+  #DEFINE FBC_IMB_99    "Intelligent Mail Barcode coming soon ..."
+  #DEFINE FBC_TELEPEN_01  "Invalid character for Telepen code."
+  #DEFINE FBC_PHARMA1_01  "The Pharmacode accepts only numeric characters."
+  #DEFINE FBC_PHARMA1_02  "Pharmacode: Input values between 3 and 131070."
+  #DEFINE FBC_PHARMA1_03  "The Pharmacode accepts only numeric characters."
+  #DEFINE FBC_PHARMA2_01  "Two Track Pharmacode: Input values between 4 and 64570080."
+  #DEFINE FBC_SUPP5_01    "The Supplemental 5 code accepts only numeric characters."
+  #DEFINE FBC_SUPP2_01    "The Supplemental 2 code accepts only numeric characters."
+  #DEFINE FBC_EAN128_01    "Invalid characters for EAN/UCC/GS1 128."
+  #DEFINE FBC_RM4SCC_01    "Invalid character for Code RM4SCC"
+  #DEFINE FBC_KIX_01    "Invalid character for KIX-Code"
 
 #ENDIF
 
 *--------------------------------------------------------------------------------------
 * FoxBarcode Symbologies List
 *--------------------------------------------------------------------------------------
-#DEFINE FBC_CODE_128		110 && Code 128 (Sets A, B and C)
-#DEFINE FBC_CODE_39			120 && Code 39
-#DEFINE FBC_CODE_39EXT		121 && Code 39 Extended or Full ASCII
-#DEFINE FBC_CODE_93			122 && Code 93
-#DEFINE FBC_CODE_93EXT		123 && Code 93 Extended or Full ASCII
-#DEFINE FBC_CODE_S2OF5		131 && Standard 2 of 5
-#DEFINE FBC_CODE_I2OF5		132 && Interleaved 2 of 5
-#DEFINE FBC_CODE_EAN8		150 && EAN-8
-#DEFINE FBC_CODE_EAN13		151 && EAN-13
-#DEFINE FBC_CODE_ITF14		152 && ITF-14
-#DEFINE FBC_CODE_EAN14		152 && EAN-14
-#DEFINE FBC_CODE_DUN14		152 && DUN-14
-#DEFINE FBC_CODE_EAN128		159 && EAN-128
-#DEFINE FBC_CODE_UCC128		159 && UCC-128
-#DEFINE FBC_CODE_GS1128		159 && GS1-128
-#DEFINE FBC_CODE_UPCE		160 && UPC-E
-#DEFINE FBC_CODE_UPCA		161 && UPC-A
-#DEFINE FBC_CODE_CODABAR	170 && Codabar
-#DEFINE FBC_CODE_11			171 && Code 11
-#DEFINE FBC_CODE_MSI		172 && MSI/Plessey
-#DEFINE FBC_CODE_TELEPEN	173 && Telepen
-#DEFINE FBC_CODE_PHARMA1	174 && One Track Pharmacode
-#DEFINE FBC_CODE_PHARMA2	175 && Two Track Pharmacode
-#DEFINE FBC_CODE_POSTNET	180 && PostNet (U.S. Postal Service)
-#DEFINE FBC_CODE_IMB		181 && Intelligent Mail Barcode (U.S. Postal Service)
-#DEFINE FBC_CODE_RM4SCC		182	&& RM4SCC (Royal Mail)
-#DEFINE FBC_CODE_KIX		183 && KIX Code (Dutch Postal)
+#DEFINE FBC_CODE_128    110 && Code 128 (Sets A, B and C)
+#DEFINE FBC_CODE_39      120 && Code 39
+#DEFINE FBC_CODE_39EXT    121 && Code 39 Extended or Full ASCII
+#DEFINE FBC_CODE_93      122 && Code 93
+#DEFINE FBC_CODE_93EXT    123 && Code 93 Extended or Full ASCII
+#DEFINE FBC_CODE_S2OF5    131 && Standard 2 of 5
+#DEFINE FBC_CODE_I2OF5    132 && Interleaved 2 of 5
+#DEFINE FBC_CODE_EAN8    150 && EAN-8
+#DEFINE FBC_CODE_EAN13    151 && EAN-13
+#DEFINE FBC_CODE_ITF14    152 && ITF-14
+#DEFINE FBC_CODE_EAN14    152 && EAN-14
+#DEFINE FBC_CODE_DUN14    152 && DUN-14
+#DEFINE FBC_CODE_EAN128    159 && EAN-128
+#DEFINE FBC_CODE_UCC128    159 && UCC-128
+#DEFINE FBC_CODE_GS1128    159 && GS1-128
+#DEFINE FBC_CODE_UPCE    160 && UPC-E
+#DEFINE FBC_CODE_UPCA    161 && UPC-A
+#DEFINE FBC_CODE_CODABAR  170 && Codabar
+#DEFINE FBC_CODE_11      171 && Code 11
+#DEFINE FBC_CODE_MSI    172 && MSI/Plessey
+#DEFINE FBC_CODE_TELEPEN  173 && Telepen
+#DEFINE FBC_CODE_PHARMA1  174 && One Track Pharmacode
+#DEFINE FBC_CODE_PHARMA2  175 && Two Track Pharmacode
+#DEFINE FBC_CODE_POSTNET  180 && PostNet (U.S. Postal Service)
+#DEFINE FBC_CODE_IMB    181 && Intelligent Mail Barcode (U.S. Postal Service)
+#DEFINE FBC_CODE_RM4SCC    182  && RM4SCC (Royal Mail)
+#DEFINE FBC_CODE_KIX    183 && KIX Code (Dutch Postal)
 
 *--------------------------------------------------------------------------------------
 * FoxBarcode Class Definition
@@ -1684,7 +1684,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
 
     DO CASE
       CASE UPPER(THIS.cSet128) = "A"
-        IF NOT THIS.ValidAscii(THIS.cTextValue,0,95)
+        IF NOT THIS.ValidAscii(THIS.cTextValue, 0, 95)
           *-- Chars not valid
           THIS.cMsgError = FBC_128A_01
           RETURN NULL
@@ -1692,7 +1692,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
         m.lnSum = 103
 
       CASE UPPER(THIS.cSet128) = "B"
-        IF NOT THIS.ValidAscii(THIS.cTextValue,32,127)
+        IF NOT THIS.ValidAscii(THIS.cTextValue, 32, 127)
           *-- Chars not valid
           THIS.cMsgError = FBC_128B_01
           RETURN NULL
@@ -1700,14 +1700,14 @@ DEFINE CLASS FoxBarcode AS CUSTOM
         m.lnSum = 104
 
       CASE UPPER(THIS.cSet128) = "C"
-        IF NOT THIS.ValidAscii(THIS.cTextValue,48,57)
+        IF NOT THIS.ValidAscii(THIS.cTextValue, 48, 57)
           *-- Chars not valid
           THIS.cMsgError = FBC_128C_01
           RETURN NULL
         ENDIF
 
         *--- Length must be even
-        IF MOD(LEN(THIS.cTextValue),2) # 0
+        IF MOD(LEN(THIS.cTextValue), 2) # 0
           THIS.cTextValue = "0" + THIS.cTextValue
           THIS.cHumanReadableText = THIS.cTextValue
         ENDIF
@@ -1726,11 +1726,11 @@ DEFINE CLASS FoxBarcode AS CUSTOM
 
         *-- Current Set
         LOCAL lcCurrentSet
-        IF THIS.IsNumeric(SUBSTR(THIS.cTextValue,1,4))
+        IF THIS.IsNumeric(SUBSTR(THIS.cTextValue, 1, 4))
           m.lcCurrentSet = "C"
           m.lnSum = 105 && C
         ELSE
-          IF THIS.ValidAscii(THIS.cTextValue,32,134)
+          IF THIS.ValidAscii(THIS.cTextValue, 32, 134)
             m.lcCurrentSet = "B"
             m.lnSum = 104 && B
           ELSE
@@ -1743,7 +1743,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
         LOCAL lcPar, lcStr, ln
         STORE "" TO m.lcStr, m.lcPar
         FOR m.ln = 1 TO LEN(THIS.cTextValue)
-          m.lcPar = m.lcPar + SUBSTR(THIS.cTextValue,m.ln,1)
+          m.lcPar = m.lcPar + SUBSTR(THIS.cTextValue, m.ln, 1)
           IF LEN(m.lcPar) = 1
             IF INLIST(m.lcPar, FBC_FNC1, FBC_SHIFT, FBC_CODEC, FBC_CODEB, FBC_CODEA)
               *-- Control code
@@ -1753,7 +1753,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
                 LOOP
               ELSE && ISDIGIT(m.lcPar)
                 IF m.lcCurrentSet = "C"
-                  IF THIS.ValidAscii(SUBSTR(THIS.cTextValue,m.ln),32,134) && The rest
+                  IF THIS.ValidAscii(SUBSTR(THIS.cTextValue, m.ln), 32, 134) && The rest
                     m.lcCurrentSet = "B"
                     m.lcStr = m.lcStr + FBC_CODEB + m.lcPar
                   ELSE && THIS.ValidAscii(
@@ -1771,7 +1771,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
                 m.lcStr = m.lcStr + THIS.Pair2Char(m.lcPar)
               ELSE && m.lcCurrentSet = "C"
                 *-- Change Current Set C if 4 digit are numeric
-                IF THIS.IsNumeric(SUBSTR(THIS.cTextValue,m.ln+1,2))
+                IF THIS.IsNumeric(SUBSTR(THIS.cTextValue, m.ln + 1, 2))
                   m.lcCurrentSet = "C"
                   m.lcStr = m.lcStr + FBC_CODEC + THIS.Pair2Char(m.lcPar)
                 ELSE && THIS.IsNumeric(SUBSTR(THIS.cTextValue,m.ln+1,2))
@@ -1781,7 +1781,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
             ELSE && THIS.IsNumeric(m.lcPar)
               *-- 1st. is digit
               IF m.lcCurrentSet = "C"
-                IF THIS.ValidAscii(SUBSTR(THIS.cTextValue,m.ln),32,134) && The rest
+                IF THIS.ValidAscii(SUBSTR(THIS.cTextValue, m.ln), 32, 134) && The rest
                   m.lcCurrentSet = "B"
                   m.lcStr = m.lcStr + FBC_CODEB + m.lcPar
                 ELSE && THIS.ValidAscii(
@@ -1915,7 +1915,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
     FOR m.ln = 1 TO LEN(THIS.cTextValue)
       m.lnSum = m.lnSum + (ASC(SUBSTR(THIS.cTextValue, m.ln, 1)) - 32) * m.ln
     ENDFOR
-    THIS.cTextValue = THIS.cTextValue + CHR(MOD(m.lnSum,103) + 32)
+    THIS.cTextValue = THIS.cTextValue + CHR(MOD(m.lnSum, 103) + 32)
     m.lnLen = LEN(THIS.cTextValue)
 
     *-- Encode 0s and 1s
@@ -2429,7 +2429,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
     m.lcRet = ""
     FOR m.ln = 1 TO m.lnLen
       m.lnPos = AT(SUBSTR(m.lcTag, m.ln, 1), m.lcValid)
-      m.lcRet = m.lcRet + laCod93(m.lnPos)
+      m.lcRet = m.lcRet + m.laCod93(m.lnPos)
     ENDFOR
 
     *-- Always with two Check Digit
@@ -2446,7 +2446,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
     ENDFOR
     m.lnCheckDigit = MOD(m.lnSum, 47)
     m.lcCheckDigit = SUBSTR(m.lcValid, m.lnCheckDigit + 1, 1)
-    m.lcRet = m.lcRet + laCod93(m.lnCheckDigit + 1)
+    m.lcRet = m.lcRet + m.laCod93(m.lnCheckDigit + 1)
     m.lcTag = m.lcTag + m.lcCheckDigit
     m.lnLen = LEN(m.lcTag)
     THIS.cCheckDigit = m.lcCheckDigit
@@ -2464,7 +2464,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
     ENDFOR
     m.lnCheckDigit = MOD(m.lnSum, 47)
     m.lcCheckDigit = SUBSTR(m.lcValid, m.lnCheckDigit + 1, 1)
-    m.lcRet = m.lcRet + laCod93(m.lnCheckDigit + 1)
+    m.lcRet = m.lcRet + m.laCod93(m.lnCheckDigit + 1)
     m.lcTag = m.lcTag + m.lcCheckDigit
     m.lnLen = LEN(m.lcTag)
 
@@ -3201,26 +3201,26 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Generate Intelligent Mail Barcode ...  coming soon !!!
   *------------------------------------------------------
   FUNCTION Code_IMB()
-    *!*	    LOCAL lnI, lcValid, lcRet, lnControl, lcCheck
+    *!*      LOCAL lnI, lcValid, lcRet, lnControl, lcCheck
 
-    *!*	    m.lcValid = "1234567890"
-    *!*	    IF NOT CHRTRAN(THIS.cTextValue,CHRTRAN(THIS.cTextValue,m.lcValid,""),"") == THIS.cTextValue
-    *!*	      *-- Chars or lenght not valid
-    *!*	      THIS.cMsgError = FBC_IMB_01
-    *!*	      RETURN NULL
-    *!*	    ENDIF
+    *!*      m.lcValid = "1234567890"
+    *!*      IF NOT CHRTRAN(THIS.cTextValue,CHRTRAN(THIS.cTextValue,m.lcValid,""),"") == THIS.cTextValue
+    *!*        *-- Chars or lenght not valid
+    *!*        THIS.cMsgError = FBC_IMB_01
+    *!*        RETURN NULL
+    *!*      ENDIF
 
-    *!*	    IF LEN(THIS.cTextValue) # 5 AND LEN(THIS.cTextValue) # 9 AND LEN(THIS.cTextValue) # 11
-    *!*	      *-- Chars or lenght not valid
-    *!*	      THIS.cMsgError = FBC_IMB_02
-    *!*	      RETURN NULL
-    *!*	    ENDIF
-    
-    	    THIS.cTextValue = "AADTFFDFTDADTAADAATFDTDDAAADDTDTTDAFADADDDTFFFDDTTTADFAAADFTDAADA"
-    	    RETURN THIS.AddSpace(THIS.cTextValue,1)
-   
-*!*	    THIS.cMsgError = FBC_IMB_99
-*!*	    RETURN NULL
+    *!*      IF LEN(THIS.cTextValue) # 5 AND LEN(THIS.cTextValue) # 9 AND LEN(THIS.cTextValue) # 11
+    *!*        *-- Chars or lenght not valid
+    *!*        THIS.cMsgError = FBC_IMB_02
+    *!*        RETURN NULL
+    *!*      ENDIF
+
+    THIS.cTextValue = "AADTFFDFTDADTAADAATFDTDDAAADDTDTTDAFADADDDTFFFDDTTTADFAAADFTDAADA"
+    RETURN THIS.AddSpace(THIS.cTextValue, 1)
+
+    *!*      THIS.cMsgError = FBC_IMB_99
+    *!*      RETURN NULL
   ENDPROC
 
   *------------------------------------------------------
@@ -3240,11 +3240,11 @@ DEFINE CLASS FoxBarcode AS CUSTOM
       RETURN NULL
     ENDIF
 
-    *!*	    IF LEN(THIS.cTextValue) # 5 AND LEN(THIS.cTextValue) # 9 AND LEN(THIS.cTextValue) # 11
-    *!*	      *-- Chars or lenght not valid
-    *!*	      THIS.cMsgError = FBC_IMB_02
-    *!*	      RETURN NULL
-    *!*	    ENDIF
+    *!*      IF LEN(THIS.cTextValue) # 5 AND LEN(THIS.cTextValue) # 9 AND LEN(THIS.cTextValue) # 11
+    *!*        *-- Chars or lenght not valid
+    *!*        THIS.cMsgError = FBC_IMB_02
+    *!*        RETURN NULL
+    *!*      ENDIF
 
     *-- Check Digit
     m.lnTop = 0
@@ -3321,13 +3321,13 @@ DEFINE CLASS FoxBarcode AS CUSTOM
       THIS.cMsgError = FBC_IMB_01
       RETURN NULL
     ENDIF
-    *!*	    IF LEN(THIS.cTextValue) # 5 AND LEN(THIS.cTextValue) # 9 AND LEN(THIS.cTextValue) # 11
-    *!*	      *-- Chars or lenght not valid
-    *!*	      THIS.cMsgError = FBC_IMB_02
-    *!*	      RETURN NULL
-    *!*	    ENDIF
+    *!*      IF LEN(THIS.cTextValue) # 5 AND LEN(THIS.cTextValue) # 9 AND LEN(THIS.cTextValue) # 11
+    *!*        *-- Chars or lenght not valid
+    *!*        THIS.cMsgError = FBC_IMB_02
+    *!*        RETURN NULL
+    *!*      ENDIF
 
-    *!*	    RETURN THIS.AddSpace(THIS.cTextValue,1)
+    *!*      RETURN THIS.AddSpace(THIS.cTextValue,1)
 
     LOCAL ARRAY laKIX(36)
     m.laKIX(1) =  "T0T0F0F0" && 0
@@ -3696,8 +3696,8 @@ DEFINE CLASS FoxBarcode AS CUSTOM
     m.laParity(10) = "OOEOE"
 
     m.lcControl = RIGHT(STR(VAL(SUBSTR( THIS.cSupplementalText, 1, 1 )) * 3 + VAL(SUBSTR(THIS.cSupplementalText, 3, 1 )) * 3 + ;
-      VAL(SUBSTR(THIS.cSupplementalText, 5, 1 )) * 3 + VAL(SUBSTR(THIS.cSupplementalText, 2, 1 )) * 9 + ;
-      VAL(SUBSTR(THIS.cSupplementalText, 4, 1 )) * 9, 5, 0 ), 1 )
+          VAL(SUBSTR(THIS.cSupplementalText, 5, 1 )) * 3 + VAL(SUBSTR(THIS.cSupplementalText, 2, 1 )) * 9 + ;
+          VAL(SUBSTR(THIS.cSupplementalText, 4, 1 )) * 9, 5, 0 ), 1 )
 
     m.lcControl = m.laParity(VAL(m.lcControl) + 1)
 
@@ -3834,11 +3834,382 @@ DEFINE CLASS FoxBarcode AS CUSTOM
     #DEFINE FBC_CODEA CHR(101 + 32)
     #DEFINE FBC_FNC1 CHR(102 + 32)
 
-    *-- Use Application Identifiers. Ex (01)01234567890128(15)101231(10)BATCH
+    *-- Use Application Identifiers. Ex (02)012345678901234(37)10(10)BATCH
     IF THIS.lUseAppId
-      *-- Replacement parentheses
-      THIS.cTextValue = CHRTRAN(THIS.cTextValue, "()", FBC_FNC1 )
+      LOCAL lcN, lnH, lnI, laL(1), laAI(351)
+
+      *-- AIs fixed length
+      m.laAI(1) = "(00)"
+      m.laAI(2) = "(01)"
+      m.laAI(3) = "(02)"
+      m.laAI(4) = "(11)"
+      m.laAI(5) = "(12)"
+      m.laAI(6) = "(13)"
+      m.laAI(7) = "(15)"
+      m.laAI(8) = "(17)"
+      m.laAI(9) = "(20)"
+      m.laAI(10) = "(3100)"
+      m.laAI(11) = "(3101)"
+      m.laAI(12) = "(3102)"
+      m.laAI(13) = "(3103)"
+      m.laAI(14) = "(3104)"
+      m.laAI(15) = "(3105)"
+      m.laAI(16) = "(3110)"
+      m.laAI(17) = "(3111)"
+      m.laAI(18) = "(3112)"
+      m.laAI(19) = "(3113)"
+      m.laAI(20) = "(3114)"
+      m.laAI(21) = "(3115)"
+      m.laAI(22) = "(3120)"
+      m.laAI(23) = "(3121)"
+      m.laAI(24) = "(3122)"
+      m.laAI(25) = "(3123)"
+      m.laAI(26) = "(3124)"
+      m.laAI(27) = "(3125)"
+      m.laAI(28) = "(3130)"
+      m.laAI(29) = "(3131)"
+      m.laAI(30) = "(3132)"
+      m.laAI(31) = "(3133)"
+      m.laAI(32) = "(3134)"
+      m.laAI(33) = "(3135)"
+      m.laAI(34) = "(3140)"
+      m.laAI(35) = "(3141)"
+      m.laAI(36) = "(3142)"
+      m.laAI(37) = "(3143)"
+      m.laAI(38) = "(3144)"
+      m.laAI(39) = "(3145)"
+      m.laAI(40) = "(3150)"
+      m.laAI(41) = "(3151)"
+      m.laAI(42) = "(3152)"
+      m.laAI(43) = "(3153)"
+      m.laAI(44) = "(3154)"
+      m.laAI(45) = "(3155)"
+      m.laAI(46) = "(3160)"
+      m.laAI(47) = "(3161)"
+      m.laAI(48) = "(3162)"
+      m.laAI(49) = "(3163)"
+      m.laAI(50) = "(3164)"
+      m.laAI(51) = "(3165)"
+      m.laAI(52) = "(3200)"
+      m.laAI(53) = "(3201)"
+      m.laAI(54) = "(3202)"
+      m.laAI(55) = "(3203)"
+      m.laAI(56) = "(3204)"
+      m.laAI(57) = "(3205)"
+      m.laAI(58) = "(3210)"
+      m.laAI(59) = "(3211)"
+      m.laAI(60) = "(3212)"
+      m.laAI(61) = "(3213)"
+      m.laAI(62) = "(3214)"
+      m.laAI(63) = "(3215)"
+      m.laAI(64) = "(3220)"
+      m.laAI(65) = "(3221)"
+      m.laAI(66) = "(3222)"
+      m.laAI(67) = "(3223)"
+      m.laAI(68) = "(3224)"
+      m.laAI(69) = "(3225)"
+      m.laAI(70) = "(3230)"
+      m.laAI(71) = "(3231)"
+      m.laAI(72) = "(3232)"
+      m.laAI(73) = "(3233)"
+      m.laAI(74) = "(3234)"
+      m.laAI(75) = "(3235)"
+      m.laAI(76) = "(3240)"
+      m.laAI(77) = "(3241)"
+      m.laAI(78) = "(3242)"
+      m.laAI(79) = "(3243)"
+      m.laAI(80) = "(3244)"
+      m.laAI(81) = "(3245)"
+      m.laAI(82) = "(3250)"
+      m.laAI(83) = "(3251)"
+      m.laAI(84) = "(3252)"
+      m.laAI(85) = "(3253)"
+      m.laAI(86) = "(3254)"
+      m.laAI(87) = "(3255)"
+      m.laAI(88) = "(3260)"
+      m.laAI(89) = "(3261)"
+      m.laAI(90) = "(3262)"
+      m.laAI(91) = "(3263)"
+      m.laAI(92) = "(3264)"
+      m.laAI(93) = "(3265)"
+      m.laAI(94) = "(3270)"
+      m.laAI(95) = "(3271)"
+      m.laAI(96) = "(3272)"
+      m.laAI(97) = "(3273)"
+      m.laAI(98) = "(3274)"
+      m.laAI(99) = "(3275)"
+      m.laAI(100) = "(3280)"
+      m.laAI(101) = "(3281)"
+      m.laAI(102) = "(3282)"
+      m.laAI(103) = "(3283)"
+      m.laAI(104) = "(3284)"
+      m.laAI(105) = "(3285)"
+      m.laAI(106) = "(3290)"
+      m.laAI(107) = "(3291)"
+      m.laAI(108) = "(3292)"
+      m.laAI(109) = "(3293)"
+      m.laAI(110) = "(3294)"
+      m.laAI(111) = "(3295)"
+      m.laAI(112) = "(3300)"
+      m.laAI(113) = "(3301)"
+      m.laAI(114) = "(3302)"
+      m.laAI(115) = "(3303)"
+      m.laAI(116) = "(3304)"
+      m.laAI(117) = "(3305)"
+      m.laAI(118) = "(3310)"
+      m.laAI(119) = "(3311)"
+      m.laAI(120) = "(3312)"
+      m.laAI(121) = "(3313)"
+      m.laAI(122) = "(3314)"
+      m.laAI(123) = "(3315)"
+      m.laAI(124) = "(3320)"
+      m.laAI(125) = "(3321)"
+      m.laAI(126) = "(3322)"
+      m.laAI(127) = "(3323)"
+      m.laAI(128) = "(3324)"
+      m.laAI(129) = "(3325)"
+      m.laAI(130) = "(3330)"
+      m.laAI(131) = "(3331)"
+      m.laAI(132) = "(3332)"
+      m.laAI(133) = "(3333)"
+      m.laAI(134) = "(3334)"
+      m.laAI(135) = "(3335)"
+      m.laAI(136) = "(3340)"
+      m.laAI(137) = "(3341)"
+      m.laAI(138) = "(3342)"
+      m.laAI(139) = "(3343)"
+      m.laAI(140) = "(3344)"
+      m.laAI(141) = "(3345)"
+      m.laAI(142) = "(3350)"
+      m.laAI(143) = "(3351)"
+      m.laAI(144) = "(3352)"
+      m.laAI(145) = "(3353)"
+      m.laAI(146) = "(3354)"
+      m.laAI(147) = "(3355)"
+      m.laAI(148) = "(3360)"
+      m.laAI(149) = "(3361)"
+      m.laAI(150) = "(3362)"
+      m.laAI(151) = "(3363)"
+      m.laAI(152) = "(3364)"
+      m.laAI(153) = "(3365)"
+      m.laAI(154) = "(3370)"
+      m.laAI(155) = "(3371)"
+      m.laAI(156) = "(3372)"
+      m.laAI(157) = "(3373)"
+      m.laAI(158) = "(3374)"
+      m.laAI(159) = "(3375)"
+      m.laAI(160) = "(3400)"
+      m.laAI(161) = "(3401)"
+      m.laAI(162) = "(3402)"
+      m.laAI(163) = "(3403)"
+      m.laAI(164) = "(3404)"
+      m.laAI(165) = "(3405)"
+      m.laAI(166) = "(3410)"
+      m.laAI(167) = "(3411)"
+      m.laAI(168) = "(3412)"
+      m.laAI(169) = "(3413)"
+      m.laAI(170) = "(3414)"
+      m.laAI(171) = "(3415)"
+      m.laAI(172) = "(3420)"
+      m.laAI(173) = "(3421)"
+      m.laAI(174) = "(3422)"
+      m.laAI(175) = "(3423)"
+      m.laAI(176) = "(3424)"
+      m.laAI(177) = "(3425)"
+      m.laAI(178) = "(3430)"
+      m.laAI(179) = "(3431)"
+      m.laAI(180) = "(3432)"
+      m.laAI(181) = "(3433)"
+      m.laAI(182) = "(3434)"
+      m.laAI(183) = "(3435)"
+      m.laAI(184) = "(3440)"
+      m.laAI(185) = "(3441)"
+      m.laAI(186) = "(3442)"
+      m.laAI(187) = "(3443)"
+      m.laAI(188) = "(3444)"
+      m.laAI(189) = "(3445)"
+      m.laAI(190) = "(3450)"
+      m.laAI(191) = "(3451)"
+      m.laAI(192) = "(3452)"
+      m.laAI(193) = "(3453)"
+      m.laAI(194) = "(3454)"
+      m.laAI(195) = "(3455)"
+      m.laAI(196) = "(3460)"
+      m.laAI(197) = "(3461)"
+      m.laAI(198) = "(3462)"
+      m.laAI(199) = "(3463)"
+      m.laAI(200) = "(3464)"
+      m.laAI(201) = "(3465)"
+      m.laAI(202) = "(3470)"
+      m.laAI(203) = "(3471)"
+      m.laAI(204) = "(3472)"
+      m.laAI(205) = "(3473)"
+      m.laAI(206) = "(3474)"
+      m.laAI(207) = "(3475)"
+      m.laAI(208) = "(3480)"
+      m.laAI(209) = "(3481)"
+      m.laAI(210) = "(3482)"
+      m.laAI(211) = "(3483)"
+      m.laAI(212) = "(3484)"
+      m.laAI(213) = "(3485)"
+      m.laAI(214) = "(3490)"
+      m.laAI(215) = "(3491)"
+      m.laAI(216) = "(3492)"
+      m.laAI(217) = "(3493)"
+      m.laAI(218) = "(3494)"
+      m.laAI(219) = "(3495)"
+      m.laAI(220) = "(3500)"
+      m.laAI(221) = "(3501)"
+      m.laAI(222) = "(3502)"
+      m.laAI(223) = "(3503)"
+      m.laAI(224) = "(3504)"
+      m.laAI(225) = "(3505)"
+      m.laAI(226) = "(3510)"
+      m.laAI(227) = "(3511)"
+      m.laAI(228) = "(3512)"
+      m.laAI(229) = "(3513)"
+      m.laAI(230) = "(3514)"
+      m.laAI(231) = "(3515)"
+      m.laAI(232) = "(3520)"
+      m.laAI(233) = "(3521)"
+      m.laAI(234) = "(3522)"
+      m.laAI(235) = "(3523)"
+      m.laAI(236) = "(3524)"
+      m.laAI(237) = "(3525)"
+      m.laAI(238) = "(3530)"
+      m.laAI(239) = "(3531)"
+      m.laAI(240) = "(3532)"
+      m.laAI(241) = "(3533)"
+      m.laAI(242) = "(3534)"
+      m.laAI(243) = "(3535)"
+      m.laAI(244) = "(3540)"
+      m.laAI(245) = "(3541)"
+      m.laAI(246) = "(3542)"
+      m.laAI(247) = "(3543)"
+      m.laAI(248) = "(3544)"
+      m.laAI(249) = "(3545)"
+      m.laAI(250) = "(3550)"
+      m.laAI(251) = "(3551)"
+      m.laAI(252) = "(3552)"
+      m.laAI(253) = "(3553)"
+      m.laAI(254) = "(3554)"
+      m.laAI(255) = "(3555)"
+      m.laAI(256) = "(3560)"
+      m.laAI(257) = "(3561)"
+      m.laAI(258) = "(3562)"
+      m.laAI(259) = "(3563)"
+      m.laAI(260) = "(3564)"
+      m.laAI(261) = "(3565)"
+      m.laAI(262) = "(3570)"
+      m.laAI(263) = "(3571)"
+      m.laAI(264) = "(3572)"
+      m.laAI(265) = "(3573)"
+      m.laAI(266) = "(3574)"
+      m.laAI(267) = "(3575)"
+      m.laAI(268) = "(3600)"
+      m.laAI(269) = "(3601)"
+      m.laAI(270) = "(3602)"
+      m.laAI(271) = "(3603)"
+      m.laAI(272) = "(3604)"
+      m.laAI(273) = "(3605)"
+      m.laAI(274) = "(3610)"
+      m.laAI(275) = "(3611)"
+      m.laAI(276) = "(3612)"
+      m.laAI(277) = "(3613)"
+      m.laAI(278) = "(3614)"
+      m.laAI(279) = "(3615)"
+      m.laAI(280) = "(3620)"
+      m.laAI(281) = "(3621)"
+      m.laAI(282) = "(3622)"
+      m.laAI(283) = "(3623)"
+      m.laAI(284) = "(3624)"
+      m.laAI(285) = "(3625)"
+      m.laAI(286) = "(3630)"
+      m.laAI(287) = "(3631)"
+      m.laAI(288) = "(3632)"
+      m.laAI(289) = "(3633)"
+      m.laAI(290) = "(3634)"
+      m.laAI(291) = "(3635)"
+      m.laAI(292) = "(3640)"
+      m.laAI(293) = "(3641)"
+      m.laAI(294) = "(3642)"
+      m.laAI(295) = "(3643)"
+      m.laAI(296) = "(3644)"
+      m.laAI(297) = "(3645)"
+      m.laAI(298) = "(3650)"
+      m.laAI(299) = "(3651)"
+      m.laAI(300) = "(3652)"
+      m.laAI(301) = "(3653)"
+      m.laAI(302) = "(3654)"
+      m.laAI(303) = "(3655)"
+      m.laAI(304) = "(3660)"
+      m.laAI(305) = "(3661)"
+      m.laAI(306) = "(3662)"
+      m.laAI(307) = "(3663)"
+      m.laAI(308) = "(3664)"
+      m.laAI(309) = "(3665)"
+      m.laAI(310) = "(3670)"
+      m.laAI(311) = "(3671)"
+      m.laAI(312) = "(3672)"
+      m.laAI(313) = "(3673)"
+      m.laAI(314) = "(3674)"
+      m.laAI(315) = "(3675)"
+      m.laAI(316) = "(3680)"
+      m.laAI(317) = "(3681)"
+      m.laAI(318) = "(3682)"
+      m.laAI(319) = "(3683)"
+      m.laAI(320) = "(3684)"
+      m.laAI(321) = "(3685)"
+      m.laAI(322) = "(3690)"
+      m.laAI(323) = "(3691)"
+      m.laAI(324) = "(3692)"
+      m.laAI(325) = "(3693)"
+      m.laAI(326) = "(3694)"
+      m.laAI(327) = "(3695)"
+      m.laAI(328) = "(3940)"
+      m.laAI(329) = "(3941)"
+      m.laAI(330) = "(3942)"
+      m.laAI(331) = "(3943)"
+      m.laAI(332) = "(410)"
+      m.laAI(333) = "(411)"
+      m.laAI(334) = "(412)"
+      m.laAI(335) = "(413)"
+      m.laAI(336) = "(414)"
+      m.laAI(337) = "(415)"
+      m.laAI(338) = "(416)"
+      m.laAI(339) = "(422)"
+      m.laAI(340) = "(424)"
+      m.laAI(341) = "(426)"
+      m.laAI(342) = "(7001)"
+      m.laAI(343) = "(7003)"
+      m.laAI(344) = "(7004)"
+      m.laAI(345) = "(7006)"
+      m.laAI(346) = "(8001)"
+      m.laAI(347) = "(8005)"
+      m.laAI(348) = "(8017)"
+      m.laAI(349) = "(8018)"
+      m.laAI(350) = "(8026)"
+      m.laAI(351) = "(8111)"
+
+      m.lcN = ""
+      m.lnH = ALINES(laL, THIS.cTextValue, 4, "(")
+      FOR m.lnI =  1 TO m.lnH
+        m.laL(m.lnI) = "(" + m.laL(m.lnI)
+        IF ASCAN(m.laAI, SUBSTR(m.laL(m.lnI), 1, AT(")", m.laL(m.lnI), 1)), -1, -1, 1, 15) = 0
+          IF m.lnI <> m.lnH
+            m.laL(m.lnI) = m.laL(m.lnI) + FBC_FNC1
+          ENDIF
+        ENDIF
+        m.lcN = m.lcN + m.laL(m.lnI)
+      ENDFOR
+      THIS.cTextValue = CHRTRAN(m.lcN, "()", "" )
     ENDIF
+
+    *!*      *-- Use Application Identifiers. Ex (01)01234567890128(15)101231(10)BATCH
+    *!*      IF THIS.lUseAppId
+    *!*        *-- Replacement parentheses
+    *!*        THIS.cTextValue = CHRTRAN(THIS.cTextValue, "()", FBC_FNC1 )
+    *!*      ENDIF
 
     *-- Add FNC1 if necessary
     IF LEFT(THIS.cTextValue, 1) <> FBC_FNC1
@@ -4054,8 +4425,8 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Assign method
   *------------------------------------------------------
   PROCEDURE nFactor_Assign(tnValue)
-    tnValue = INT(MIN(MAX(tnValue, 1), 10))
-    THIS.nFactor = tnValue
+    m.tnValue = INT(MIN(MAX(m.tnValue, 1), 10))
+    THIS.nFactor = m.tnValue
     THIS.nFontHeight = THIS.nFactor * (THIS.nFontSize / THIS.nResolution) * 100
     THIS.nTextHeight = (THIS.nFontSize + 6 ) * THIS.nFactor
   ENDPROC
@@ -4066,8 +4437,8 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Assign method
   *------------------------------------------------------
   PROCEDURE nResolution_Assign(tnValue)
-    tnValue = INT(MIN(MAX(tnValue, 72), 1200))
-    THIS.nResolution = tnValue
+    m.tnValue = INT(MIN(MAX(m.tnValue, 72), 1200))
+    THIS.nResolution = m.tnValue
     THIS.nFontHeight = THIS.nFactor * (THIS.nFontSize / THIS.nResolution) * 100
     THIS.nTextHeight = (THIS.nFontSize + 6 ) * THIS.nFactor
   ENDPROC
@@ -4078,8 +4449,8 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Assign method
   *------------------------------------------------------
   PROCEDURE nFontSize_Assign(tnValue)
-    tnValue = MIN(MAX(tnValue, 1), 72)
-    THIS.nFontSize = tnValue
+    m.tnValue = MIN(MAX(m.tnValue, 1), 72)
+    THIS.nFontSize = m.tnValue
     THIS.nFontHeight = THIS.nFactor * (THIS.nFontSize / THIS.nResolution) * 100
     THIS.nTextHeight = (THIS.nFontSize + 6 ) * THIS.nFactor
   ENDPROC
@@ -4090,7 +4461,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Assign method
   *------------------------------------------------------
   PROCEDURE lFontBold_Assign(tlValue)
-    THIS.lFontBold = tlValue
+    THIS.lFontBold = m.tlValue
     THIS.cFontStyle = IIF(THIS.lFontBold, "B", "N") + IIF(THIS.lFontItalic, "I", "")
   ENDPROC
 
@@ -4100,7 +4471,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Assign method
   *------------------------------------------------------
   PROCEDURE lFontItalic_Assign(tlValue)
-    THIS.lFontItalic = tlValue
+    THIS.lFontItalic = m.tlValue
     THIS.cFontStyle = IIF(THIS.lFontBold, "B", "N") + IIF(THIS.lFontItalic, "I", "")
   ENDPROC
 
@@ -4187,13 +4558,13 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   *------------------------------------------------------
   PROCEDURE AddSpace(tcText, tnSpaces)
     LOCAL lc, ln, lnLen
-    IF EMPTY(tnSpaces)
-      tnSpaces = 1
+    IF EMPTY(m.tnSpaces)
+      m.tnSpaces = 1
     ENDIF
     m.lc = ""
     m.lnLen = LEN(m.tcText)
     FOR m.ln = 1 TO m.lnLen
-      m.lc = m.lc + SUBSTR(m.tcText, m.ln, 1) + IIF(m.ln = m.lnLen, SPACE(0), SPACE(tnSpaces))
+      m.lc = m.lc + SUBSTR(m.tcText, m.ln, 1) + IIF(m.ln = m.lnLen, SPACE(0), SPACE(m.tnSpaces))
     ENDFOR
     RETURN m.lc
   ENDPROC
@@ -4222,8 +4593,8 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   *------------------------------------------------------
   PROCEDURE ApplyRatio(tcEncoded, tnRatio)
     LOCAL lcRet
-    m.tcEncoded = STRTRAN(m.tcEncoded, "B", REPLICATE("1", tnRatio))
-    m.tcEncoded = STRTRAN(m.tcEncoded, "S", REPLICATE("0", tnRatio))
+    m.tcEncoded = STRTRAN(m.tcEncoded, "B", REPLICATE("1", m.tnRatio))
+    m.tcEncoded = STRTRAN(m.tcEncoded, "S", REPLICATE("0", m.tnRatio))
     RETURN m.tcEncoded
   ENDPROC
 
@@ -4257,13 +4628,13 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   PROCEDURE DeleteFolder(pcFolder)
     LOCAL loFso AS OBJECT
     DO CASE
-      CASE EMPTY(pcFolder)
+      CASE EMPTY(m.pcFolder)
         RETURN .F.
-      CASE NOT DIRECTORY(pcFolder)
+      CASE NOT DIRECTORY(m.pcFolder)
         RETURN .F.
     ENDCASE
     m.loFso  = CREATEOBJECT("Scripting.FileSystemObject")
-    RETURN m.loFso.DeleteFolder(pcFolder)
+    RETURN m.loFso.DeleteFolder(m.pcFolder)
   ENDPROC
 
   *---------------------------------------------------------
@@ -4367,7 +4738,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
       INTEGER FontFamily
 
     LOCAL lcStartupInput, lcGdipToken
-    m.lcStartupInput = CHR(1) + REPLICATE(CHR(0), 15)	&& GdiplusStartupInput structure (sizeof = 16)
+    m.lcStartupInput = CHR(1) + REPLICATE(CHR(0), 15)  && GdiplusStartupInput structure (sizeof = 16)
     * Initialize GDI+
     m.lcGdipToken = 0
     IF FBC_GdiplusStartup(@m.lcGdipToken, @m.lcStartupInput, 0) <> 0
@@ -4404,7 +4775,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * PROTECTED FUNCTION WideStr(tcStr)
   * Thanks to gpImage2
   *---------------------------------------------------------
-  PROTECTED FUNCTION WideStr(tcStr)
+  PROTECTED FUNCTION WideStr(m.tcStr)
     IF VERSION(5) >= 700
       RETURN STRCONV(m.tcStr + CHR(0), 5)
     ELSE

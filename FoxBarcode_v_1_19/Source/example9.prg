@@ -6,7 +6,7 @@ m.loFbc = CREATEOBJECT("FoxBarcode")
 
 *-- Set properties
 m.loFbc.nBarcodeType = 132 && Interleaved 2 of 5
-m.loFbc.nFactor = 1
+m.loFbc.nFactor = 2
 m.loFbc.cImageType = "BMP"
 m.loFbc.nImageWidth = 900
 m.loFbc.nResolution = 600

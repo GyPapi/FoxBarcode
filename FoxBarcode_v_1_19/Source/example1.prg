@@ -13,15 +13,16 @@ IF m.lnMethod = 1
   *----------------------
   *-- Set properties
   m.loFbc.nBarcodeType = 159 && EAN-128
+  m.loFbc.lUseAppId = .T.
   m.loFbc.nFactor = 2
   m.loFbc.nImageWidth = 80
-  m.lcImage = m.loFbc.BarcodeImage("(01)01234567890128(15)101231(10)123X")
+  m.lcImage = m.loFbc.BarcodeImage("(02)012345678901234(37)123(10)123X")
 ELSE
   *----------------------
   *-- Method 2
   *----------------------
   *-- Generate the image with the 3rd parameter
-  m.lcImage = m.loFbc.BarcodeImage("","",[nBarcodeType=159, cText="(01)01234567890128(15)101231(10)123X", nFactor=2, nMaxImageWidth=800])
+  m.lcImage = m.loFbc.BarcodeImage("","",[nBarcodeType=159, cText="(02)012345678901234(37)123(10)123X", nFactor=2, nMaxImageWidth=800])
 ENDIF
 
 
